@@ -7,6 +7,7 @@ import Timeline from "@/components/pathways/Timeline";
 import MaterialsChecklist from "@/components/pathways/MaterialsChecklist";
 import Badge from "@/components/ui/Badge";
 import { DIFFICULTY_LABELS, CATEGORY_LABELS } from "@/lib/constants";
+import PaywallGuard from "@/components/auth/PaywallGuard";
 import Link from "next/link";
 
 export function generateStaticParams() {
@@ -49,7 +50,8 @@ async function PathwayDetailPageContent({
   return (
     <>
       <Header />
-      <main className="flex-1 max-w-4xl mx-auto px-4 py-8 space-y-10">
+      <PaywallGuard>
+        <main className="flex-1 max-w-4xl mx-auto px-4 py-8 space-y-10">
         {/* 返回链接 */}
         <Link
           href="/pathways"
@@ -264,6 +266,7 @@ async function PathwayDetailPageContent({
           数据最后更新：{pathway.lastUpdated} · 来源：{country.name}移民局官网
         </p>
       </main>
+      </PaywallGuard>
       <Footer />
     </>
   );

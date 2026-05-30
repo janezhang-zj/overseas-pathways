@@ -1,0 +1,86 @@
+{
+  "slug": "japan-jet",
+  "title": "日本 JET 英语教师项目",
+  "subtitle": "日本政府官方项目，年薪约￥16万+免租金住宿补贴，本科以上即可。最长可做5年",
+  "countrySlug": "japan",
+  "category": "work",
+  "type": "工作签证（JET Programme - 国际交流员）",
+  "isFeatured": true,
+
+  "eligibility": {
+    "minAge": 18,
+    "maxAge": 40,
+    "education": "bachelor",
+    "englishLevel": "ielts6.0",
+    "minBudgetRMB": 5000,
+    "maxBudgetRMB": 10000,
+    "specialRequirements": [
+      "本科及以上学历（任何专业）",
+      "英语流利（无需日语基础，但会日语加分）",
+      "对日本文化有兴趣并愿意促进国际交流",
+      "身体健康、无犯罪记录",
+      "通过中国JET项目选拔（每年约20-40个名额）"
+    ]
+  },
+
+  "overview": {
+    "description": "JET Programme（The Japan Exchange and Teaching Programme）是日本政府自1987年起运营的官方国际交流项目，招募英语母语和非母语国家的青年赴日担任Assistant Language Teacher（ALT）或 Coordinator for International Relations（CIR）。中国每年有约20-40个名额。年薪约330万日元（约16万人民币），地方政府通常提供租房补贴（房屋月租仅需1-3万日元）。这是去日本工作和体验文化最安全的途径之一——日本政府背书、薪资稳定、福利完善。",
+    "officialPolicy": "JET Programme由日本总务省、外务省、文部科学省及地方自治体共同运营。参与者持'技术·人文知识·国际业务'在留资格赴日，合同一年一签，可续签至最长5年。ALT（外语指导助手）在中小学辅助英语教学；CIR（国际交流员）在地方政府从事翻译和国际交流工作。",
+    "officialPolicyUrl": "https://jetprogramme.org",
+    "visaDuration": "1年（可续签至最长5年）",
+    "processingTime": "4-8个月（每年11月截止申请→次年3-4月面试→7-8月赴日）",
+    "successRate": "中等偏低。全球申请者众多，中国名额有限（约20-40人/年），竞争较激烈",
+    "quota": "全球约3000-4000人/年，中国约20-40个名额"
+  },
+
+  "costs": {
+    "items": [
+      { "name": "签证申请费", "amountRMB": 200, "type": "government" },
+      { "name": "护照办理", "amountRMB": 120, "type": "document" },
+      { "name": "学历公证翻译（日/英）", "amountRMB": 500, "type": "document" },
+      { "name": "体检", "amountRMB": 500, "type": "health" },
+      { "name": "机票", "amountRMB": 3000, "type": "travel", "note": "部分情况JET可能报销" }
+    ],
+    "totalMinRMB": 4320,
+    "totalMaxRMB": 8000,
+    "currency": "RMB",
+    "note": "JET最吸引人的是待遇：年薪约16万RMB + 地方政府住房补贴（有的月租仅需500-1500元）。工资在日本二线城市可以过得很舒适，第一年就能存下钱。"
+  },
+
+  "timeline": [
+    { "phase": "申请期", "duration": "9-11月", "tasks": ["查看JET Programme官网当年招募公告", "准备英文简历和申请材料", "选择申请岗位（ALT英语助教 / CIR国际交流员）", "通过日本驻华使领馆提交申请"] },
+    { "phase": "选拔期", "duration": "12月-次年4月", "tasks": ["等待初选结果", "通过初选后参加面试（通常在北京/上海/广州）", "面试含英语交流测试+日本文化理解+教学演示", "等待最终结果通知"] },
+    { "phase": "赴日前", "duration": "5-7月", "tasks": ["收到录取通知和派遣地安排", "办理签证和出国手续", "参加行前说明会", "7-8月赴日，参加入职培训"] }
+  ],
+
+  "materials": [
+    { "materialId": "passport", "required": true },
+    { "materialId": "degree-certificate", "required": true, "specificNote": "本科学位证+毕业证（任何专业均可）。应届生可凭预毕业证明申请" },
+    { "materialId": "academic-transcript", "required": true },
+    { "materialId": "health-check", "required": true },
+    { "materialId": "id-photo", "required": true },
+    { "materialId": "criminal-check", "required": true },
+    { "materialId": "personal-statement", "required": true, "specificNote": "英文的Statement of Purpose：为什么想参加JET、你能为日本学校和社区带来什么。这是最重要的申请材料之一" }
+  ],
+
+  "visualTags": [
+    { "icon": "money", "text": "年薪约16万RMB+住房补贴" },
+    { "icon": "clock", "text": "可做1-5年" },
+    { "icon": "pin", "text": "日本政府官方项目" },
+    { "icon": "dice", "text": "竞争激烈，中国仅20-40名额" }
+  ],
+  "renewable": "合同一年一签，最多可续签4次（总计5年）。5年期满后不能继续参加JET，但积累的经验和人脉可直接转为日本本地教师岗位或其他工作签证。",
+
+  "faq": [
+    { "question": "需要日语吗？", "answer": "ALT（英语助教）不要求日语基础，但会日语申请加分。CIR（国际交流员）需要日语N2以上。JET会为参加者提供日语培训支持。" },
+    { "question": "一定要求师范或英语专业吗？", "answer": "不需要。任何专业均可申请——从计算机到历史到艺术都行。JET看重的是你对国际交流的热情和适应能力，而不是你的专业背景。" },
+    { "question": "会被派到东京这样的大城市吗？", "answer": "不一定。JET的派遣地遍布日本47个都道府县，可能是大城市的学校，也可能是乡村小镇。很多JET参与者说乡村体验才是最难忘的部分。申请时可以表达偏好，但最终服从分配。" }
+  ],
+
+  "tips": ["Statement of Purpose 是申请核心——真诚地写为什么对日本和国际交流感兴趣，不要套模板", "如果有志愿者、教学、跨文化经历，在简历中突出", "JET申请每年只开放一次（通常在9-11月），错过等一年，提前关注官网"],
+  "warnings": ["JET不是终身职位——最长5年，5年后需要自己规划下一步（转本地教职、升学、回国等）", "派遣地可能是偏远乡村，生活条件相对简单——做好心理准备，这也是体验的一部分"],
+
+  "difficulty": "hard",
+  "tags": ["日本", "教英语", "政府项目", "年薪16万", "本科学历"],
+  "lastUpdated": "2026-05-29"
+}

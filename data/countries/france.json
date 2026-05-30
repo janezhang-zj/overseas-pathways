@@ -1,0 +1,40 @@
+{
+  "slug": "france",
+  "name": "法国",
+  "nameEn": "France",
+  "continent": "欧洲",
+  "flagEmoji": "🇫🇷",
+  "description": "法国自2016年起与中国签署打工度假协议，每年500个名额。公立大学学费低廉，还有互惠生（Au Pair）和志愿者项目，适合预算有限但向往欧洲文化的年轻人。",
+  "image": "/images/countries/france.webp",
+  "currency": "欧元 (EUR)",
+  "exchangeRate": "1 EUR ≈ 7.8 RMB",
+  "language": "法语",
+  "costOfLiving": {
+    "monthlyMinRMB": 6000,
+    "monthlyMaxRMB": 12000,
+    "cityBreakdown": {
+      "巴黎": 12000,
+      "里昂": 9000,
+      "马赛": 8000,
+      "小城市": 6000
+    }
+  },
+  "minWage": {
+    "rate": "11.88 EUR/小时",
+    "monthlyEstimateRMB": 12000,
+    "note": "按每周35小时计算。打工度假者常见工作：餐厅、酒店、葡萄园采摘、中文教学。"
+  },
+  "highlights": [
+    "中法WHV协议每年500个名额",
+    "法语区文化体验（申根区畅游26国）",
+    "公立大学学费低廉",
+    "互惠生（Au Pair）和志愿者项目丰富",
+    "葡萄园季节工作+法国乡村生活体验"
+  ],
+  "officialLinks": {
+    "immigration": "https://france-visas.gouv.fr",
+    "education": "https://www.campusfrance.org",
+    "health": "https://solidarites-sante.gouv.fr"
+  },
+  "tags": ["欧洲", "打工度假", "法语", "申根", "葡萄酒", "文化"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "criminal-check",
+  "name": "无犯罪记录证明",
+  "description": "证明申请人在中国境内无犯罪记录的官方文件。部分国家要求提供近10年内居住超过12个月的所有国家的无犯罪证明。",
+  "category": "legal",
+  "required": false,
+  "processingLocation": "户籍所在地派出所",
+  "alternativeLocation": "部分地区支持\"公安一网通办\"APP在线申请",
+  "estimatedFeeRMB": 0,
+  "estimatedProcessingDays": 7,
+  "validityPeriod": "6个月（大部分国家要求）",
+  "officialUrl": "https://gab.12389.gov.cn",
+  "steps": [
+    {
+      "order": 1,
+      "title": "前往派出所",
+      "description": "携带身份证原件、户口簿到户籍所在地派出所申请开具。",
+      "duration": "10分钟"
+    },
+    {
+      "order": 2,
+      "title": "办理公证翻译",
+      "description": "拿到派出所证明后，到公证处办理英文翻译公证。",
+      "duration": "5-7个工作日",
+      "tips": "公证费约200-400元/份，建议一次多办几份备用。"
+    }
+  ],
+  "tips": [
+    "部分国家要求无犯罪证明需要外交部认证+使领馆认证（双认证），需额外2-3周",
+    "如果在国外居住超过12个月，还需要提供该国的无犯罪证明"
+  ]
+}

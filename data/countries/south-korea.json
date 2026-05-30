@@ -1,0 +1,40 @@
+{
+  "slug": "south-korea",
+  "name": "韩国",
+  "nameEn": "South Korea",
+  "continent": "亚洲",
+  "flagEmoji": "🇰🇷",
+  "description": "中韩距离近、文化相近，打工度假签证（H-1）每年对中国开放。韩流文化吸引年轻人前去体验，同时韩语学习门槛比欧洲语言低。毕业后可转E-7工作签证长期居留。",
+  "image": "/images/countries/south-korea.webp",
+  "currency": "韩元 (KRW)",
+  "exchangeRate": "100 KRW ≈ 0.54 RMB",
+  "language": "韩语",
+  "costOfLiving": {
+    "monthlyMinRMB": 5000,
+    "monthlyMaxRMB": 9000,
+    "cityBreakdown": {
+      "首尔": 9000,
+      "釜山": 7000,
+      "大邱": 5500,
+      "地方城市": 5000
+    }
+  },
+  "minWage": {
+    "rate": "10,030 KRW/小时",
+    "monthlyEstimateRMB": 10000,
+    "note": "按每周40小时计算。打工度假者常见工作：餐厅、便利店、中文教学、翻译。"
+  },
+  "highlights": [
+    "距离中国最近，机票便宜（往返1000-2000元）",
+    "打工度假签证H-1每年对中国开放",
+    "韩流文化体验（K-POP、韩剧拍摄地）",
+    "最低时薪逐年上涨，可覆盖生活费",
+    "中文教学和翻译工作机会多"
+  ],
+  "officialLinks": {
+    "immigration": "https://www.immigration.go.kr",
+    "education": "https://www.moe.go.kr",
+    "health": "https://www.mohw.go.kr"
+  },
+  "tags": ["亚洲", "距离近", "打工度假", "韩流", "中文教学"]
+}

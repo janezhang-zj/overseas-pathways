@@ -1,0 +1,28 @@
+{
+  "id": "academic-transcript",
+  "name": "成绩单",
+  "description": "最高学历的完整成绩单，需学校教务处盖章，并翻译公证。",
+  "category": "education",
+  "required": true,
+  "processingLocation": "毕业院校教务处",
+  "estimatedFeeRMB": 30,
+  "estimatedProcessingDays": 7,
+  "steps": [
+    {
+      "order": 1,
+      "title": "联系学校",
+      "description": "前往毕业院校教务处（或通过学校官网/校友系统）申请开具中英文成绩单。",
+      "duration": "1-7个工作日"
+    },
+    {
+      "order": 2,
+      "title": "盖章确认",
+      "description": "确保成绩单盖有学校教务处公章。如只有中文版，需额外翻译公证。",
+      "duration": "视学校效率"
+    }
+  ],
+  "tips": [
+    "部分大学可直接开具中英文成绩单，免去公证步骤",
+    "如果学校已不在或合并，联系当地教育局咨询如何获取档案成绩单"
+  ]
+}

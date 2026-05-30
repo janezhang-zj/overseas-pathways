@@ -1,0 +1,90 @@
+{
+  "slug": "canada-coop",
+  "title": "加拿大留学+Co-op带薪实习",
+  "subtitle": "公立学院（College）学费低、含Co-op带薪实习、毕业后3年工签可移民——不同于传统大学路线",
+  "countrySlug": "canada",
+  "category": "study",
+  "type": "学签（Study Permit）+ Co-op工签 + PGWP毕业后工签",
+  "isFeatured": true,
+
+  "eligibility": {
+    "minAge": 18,
+    "maxAge": 40,
+    "education": "high-school",
+    "englishLevel": "ielts6.0",
+    "minBudgetRMB": 80000,
+    "maxBudgetRMB": 150000,
+    "specialRequirements": [
+      "高中及以上学历",
+      "雅思6.0（College Diploma）/ 6.5（学士学位）",
+      "足够的资金证明（学费+生活费，通常需RMB 15-20万/年证明）",
+      "学习计划合理（和之前学历/工作相关）",
+      "毕业工签PGWP要求课程长度≥8个月并在加拿大境内完成"
+    ]
+  },
+
+  "overview": {
+    "description": "加拿大公立学院（College）的2年Diploma课程是WHV类路径的高性价比替代：学费比大学便宜40-60%、课程含Co-op带薪实习学期、毕业后可申最长3年的PGWP开放工签（无雇主限制）、工作满1年可通过Express Entry/CEC申请永久居民。相比澳洲/英国，加拿大移民政策对留学生最友好。华人社区成熟（温哥华/多伦多）、生活便利。",
+    "officialPolicy": "根据IRCC规定：持有Study Permit的全日制国际学生，课程期间每周可合法工作20小时（假期全职）。如课程含Co-op，需额外申请Co-op Work Permit（免费）。毕业后可申请Post-Graduation Work Permit（PGWP），长度与课程长度相当（最短8个月课程=8个月工签，2年课程=3年工签）。",
+    "officialPolicyUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+    "visaDuration": "课程期间（学签）+ 毕业后PGWP工签（1-3年）+ 工作后可申PR",
+    "processingTime": "学校申请2-4个月 + 学签审理2-4个月，全程约4-8个月",
+    "successRate": "较高（学签审理严格但材料齐全通过率高）",
+    "quota": "无固定名额，但学签需要通过签证官审核（学习计划的合理性是关键）"
+  },
+
+  "costs": {
+    "items": [
+      { "name": "College学费（1年）", "amountRMB": 75000, "type": "government", "note": "约CAD 14,000-18,000。大学本科约CAD 25,000-40,000" },
+      { "name": "学签申请费", "amountRMB": 800, "type": "government", "note": "CAD 150" },
+      { "name": "雅思考试费", "amountRMB": 2170, "type": "language" },
+      { "name": "公证翻译费", "amountRMB": 500, "type": "document" },
+      { "name": "GIC保证金（如走SDS通道）", "amountRMB": 53000, "type": "finance", "note": "CAD 10,000，用于证明生活费，到加拿大后分期解冻" },
+      { "name": "往返机票", "amountRMB": 6000, "type": "travel" },
+      { "name": "首月生活费+住宿", "amountRMB": 8000, "type": "living" }
+    ],
+    "totalMinRMB": 92470,
+    "totalMaxRMB": 145470,
+    "currency": "RMB",
+    "note": "Co-op实习学期（通常4-8个月）能赚回一部分学费：加拿大实习月薪约CAD 2500-4000。College学费可在毕业后通过PGWP工作赚回。相比澳洲WHV，投入更高但移民确定性也更高。"
+  },
+
+  "timeline": [
+    { "phase": "选校申请", "duration": "2-4个月", "tasks": ["确定目标专业和College（优先选DLI名单上的公立学院）", "准备申请材料（成绩单、毕业证、英语成绩、个人陈述）", "提交申请并等待Offer", "接受Offer并缴纳学费押金"] },
+    { "phase": "学签申请", "duration": "2-4个月", "tasks": ["准备学签材料（Offer+资金证明+学习计划+体检）", "在线提交学签申请（IRCC官网或VFS签证中心）", "生物识别信息采集（指纹+照片）", "等待审理结果"] },
+    { "phase": "出发与学习", "duration": "课程期间", "tasks": ["抵达加拿大 → 领取Study Permit", "申请SIN（社保号）+ 银行开户 + 电话卡", "适应课程 + 申请Co-op Work Permit", "Co-op学期开始带薪实习"] },
+    { "phase": "毕业后", "duration": "毕业后90天内", "tasks": ["申请PGWP（毕业后工签）", "持PGWP在任何雇主处全职工作", "工作满1年（CEC类别）后可提交Express Entry申请永久居民"] }
+  ],
+
+  "materials": [
+    { "materialId": "passport", "required": true },
+    { "materialId": "ielts-report", "required": true, "specificNote": "College Diploma通常要求6.0，学士学位6.5。SDS学签通道要求6.0以上" },
+    { "materialId": "degree-certificate", "required": true, "specificNote": "最高学历毕业证中英文版。高中学历即可申请College" },
+    { "materialId": "academic-transcript", "required": true, "specificNote": "高中/大学成绩单中英文版" },
+    { "materialId": "bank-statement", "required": true, "specificNote": "需证明有足够资金（学费+GIC CAD 10000+往返交通费）。父母担保需提供关系证明" },
+    { "materialId": "id-photo", "required": true },
+    { "materialId": "health-check", "required": true, "specificNote": "IRCC指定体检中心（Panel Physician），体检报告有效期12个月" },
+    { "materialId": "personal-statement", "required": true, "specificNote": "学习计划（Study Plan）：解释为什么选择加拿大、为什么选这个专业、和你之前学历/工作的关联、毕业后计划回国。这是学签审核最关键的材料之一" }
+  ],
+
+  "visualTags": [
+    { "icon": "money", "text": "首年投入约10-15万" },
+    { "icon": "clock", "text": "2年课程+3年工签" },
+    { "icon": "pin", "text": "Co-op带薪实习回血学费" },
+    { "icon": "refresh", "text": "毕业工签后可申PR移民" }
+  ],
+  "renewable": "完成课程后申请PGWP（毕业后工签），长度=课程长度（最少8个月/最长3年）。持PGWP工作满1年（加拿大经验类CEC）可通过Express Entry快速通道申请永久居民（PR）。加拿大移民配额每年40-50万人，留学生是最优先的移民来源。",
+
+  "faq": [
+    { "question": "College和University有什么区别？", "answer": "College（学院）侧重职业技能培训（IT、护理、酒店管理、技工等），学费便宜（CAD 14,000-18,000/年），课程含Co-op带薪实习。University（大学）侧重学术研究，学费高（CAD 25,000-40,000/年）。对于想移民的人，College性价比更高、就业率更好。" },
+    { "question": "Co-op实习能赚多少钱？", "answer": "看专业：IT实习CAD 3000-5000/月，工程CAD 2500-4500/月，酒店/商科CAD 2000-3500/月。4-8个月的Co-op学期能赚回相当一部分学费。" },
+    { "question": "学签通过率怎么样？", "answer": "中国申请人的加拿大学签整体通过率约70-80%。最关键的是学习计划的合理性——签证官需要相信你是真的去学习、毕业后会回国（即使实际上你可能想移民）。所以Study Plan要写好。" }
+  ],
+
+  "tips": ["优先选DLI（Designated Learning Institution）名单上的公立College", "申请SDS（Student Direct Stream）通道可加速审理（20天内），需雅思6.0以上+GIC存款", "选择2年制课程 + Co-op的College项目——毕业后拿3年PGWP，移民加分最多"],
+  "warnings": ["⚠️ 学签不等于移民签证——虽然很多人通过留学实现移民，但Study Plan中不能直接写'我要移民'", "⚠️ 课程期间每周工作不能超过20小时（假期除外），违反可能被取消学签", "⚠️ PGWP每人一生只能申请一次——如果读完一个短课程就申了PGWP，就不能再读第二个课程再拿一次"],
+
+  "difficulty": "medium",
+  "tags": ["留学", "加拿大", "可移民", "Co-op实习", "College", "PGWP工签"],
+  "lastUpdated": "2026-05-29"
+}

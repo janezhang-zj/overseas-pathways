@@ -1,0 +1,85 @@
+{
+  "slug": "csc-internship",
+  "title": "国家留学基金委（CSC）国际组织实习",
+  "subtitle": "国家出钱送你去联合国等国际组织实习——包往返机票+每月生活费补贴。最靠谱的官方项目",
+  "countrySlug": "global",
+  "category": "internship",
+  "type": "政府资助项目",
+  "isFeatured": true,
+
+  "eligibility": {
+    "minAge": 18,
+    "maxAge": 32,
+    "education": "bachelor",
+    "englishLevel": "ielts6.5",
+    "minBudgetRMB": 1000,
+    "maxBudgetRMB": 3000,
+    "specialRequirements": [
+      "中国公民（持中国护照）",
+      "本科及以上学历（在读或已毕业）",
+      "英语流利（雅思6.5/托福95以上；法语或西班牙语加分）",
+      "符合具体国际组织岗位的专业要求",
+      "通过CSC选拔评审",
+      "实习结束后需回国服务2年（或支付违约金）"
+    ]
+  },
+
+  "overview": {
+    "description": "中国国家留学基金委（CSC）国际组织实习项目是中国政府为培养国际组织人才而设立的公派项目。通过CSC选拔的学生和毕业生，可以由政府资助赴联合国教科文组织（UNESCO）、世界卫生组织（WHO）、国际电信联盟（ITU）等国际组织实习3-12个月。CSC提供往返国际旅费+每月生活费补贴（标准按目的地国家不同，约EUR 1,200-1,800/月）。项目安全可靠、经历含金量极高——适合有志于国际事务的学生。",
+    "officialPolicy": "根据国家留学基金委（CSC）官方网站公布的《国际组织实习项目选派办法》：申请人通过CSC网上报名系统提交申请，经专家评审后录取。CSC资助一次往返国际旅费和实习期间的生活费奖学金。实习结束后，留学人员须回国服务2年。具体资助标准和选派条件以当年度CSC发布的选派简章为准。",
+    "officialPolicyUrl": "https://www.csc.edu.cn/chuguo/s/xxxx",
+    "visaDuration": "3-12个月（由CSC和接收组织决定）",
+    "processingTime": "4-8个月（申请+评审+派出）",
+    "successRate": "中等偏低。竞争较激烈，需要有相关专业背景+英语能力+对国际事务的热情",
+    "quota": "每年约100-300人（含与各国际组织合作的定向名额）"
+  },
+
+  "costs": {
+    "items": [
+      { "name": "护照办理费", "amountRMB": 120, "type": "document" },
+      { "name": "体检费", "amountRMB": 500, "type": "health" },
+      { "name": "公证/翻译费", "amountRMB": 500, "type": "document" },
+      { "name": "签证费", "amountRMB": 0, "type": "government", "note": "CSC报销" }
+    ],
+    "totalMinRMB": 1120,
+    "totalMaxRMB": 3000,
+    "currency": "RMB",
+    "note": "CSC提供往返机票+每月生活费补贴+签证费报销。自己只需要出护照和体检等小额费用。这是所有出国路径中个人开支最低的项目。"
+  },
+
+  "timeline": [
+    { "phase": "寻找岗位", "duration": "1-3个月", "tasks": ["关注CSC官网（csc.edu.cn）发布的国际组织实习岗位", "也可直接在国际组织官网（UNESCO/WHO/ITU等）查找实习招聘", "确认自己符合岗位专业要求"] },
+    { "phase": "申请期", "duration": "2-3个月", "tasks": ["登录CSC网上报名系统填写申请", "准备申请材料（个人陈述+推荐信+成绩单+语言成绩）", "提交后等待专家评审", "通过初选后参加面试"] },
+    { "phase": "派出手续", "duration": "2-3个月", "tasks": ["收到CSC录取通知书", "签署《资助出国留学协议书》", "办理护照+签证", "参加CSC行前培训", "购买机票（CSC指定方式）"] }
+  ],
+
+  "materials": [
+    { "materialId": "passport", "required": true },
+    { "materialId": "ielts-report", "required": true, "specificNote": "雅思6.5/托福95以上。法语或西班牙语能力证明加分" },
+    { "materialId": "degree-certificate", "required": true, "specificNote": "最高学历学位证+毕业证。在读生提供在读证明" },
+    { "materialId": "academic-transcript", "required": true },
+    { "materialId": "health-check", "required": true },
+    { "materialId": "personal-statement", "required": true, "specificNote": "中文个人陈述：学术背景、为什么想去国际组织、职业规划。英文Study Plan：在国际组织的实习计划" }
+  ],
+
+  "visualTags": [
+    { "icon": "money", "text": "国家资助，个人仅需¥1千-3千" },
+    { "icon": "clock", "text": "实习3-12个月" },
+    { "icon": "pin", "text": "联合国等国际组织" },
+    { "icon": "refresh", "text": "回国服务2年" }
+  ],
+  "renewable": "实习结束后，部分国际组织可能提供延长或转正机会。但CSC资助要求实习结束后回国服务2年（或支付违约金）。满足服务期后，可再次申请CSC项目或自行申请国际组织的正式岗位。",
+
+  "faq": [
+    { "question": "一定要雅思/托福成绩吗？", "answer": "是的。CSC通常要求雅思6.5/托福95以上。如果你有法语/西班牙语能力，会显著加分——很多国际组织在法语区或西语区有办事处。" },
+    { "question": "哪些专业最受欢迎？", "answer": "国际关系/国际法/公共政策最直接对口。但国际组织也需要IT、财务、传播、统计、工程等多种背景。关键是你的技能和岗位需求匹配。" },
+    { "question": "回国服务2年是什么意思？", "answer": "实习结束后必须回中国居住和工作满2年。这是CSC资助的条件之一。但这不是坏事——国际组织实习经历在国内就业市场含金量很高。" }
+  ],
+
+  "tips": ["提前在国际组织官网找好具体岗位再通过CSC申请，成功率远高于海投", "法语能力是进入联合国系统的利器——如果你会法语，拿到offer的概率翻倍", "CSC每年发布选派简章的时间不同，建议设置官网提醒"],
+  "warnings": ["必须回国服务2年——如果打算实习后直接留在国外工作，不适合申请CSC项目", "申请周期长达4-8个月，需要提前规划——不要等到快毕业才准备"],
+
+  "difficulty": "hard",
+  "tags": ["政府项目", "CSC", "国际组织", "联合国", "国家资助", "回国服务"],
+  "lastUpdated": "2026-05-29"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "new-zealand",
+  "name": "新西兰",
+  "nameEn": "New Zealand",
+  "continent": "大洋洲",
+  "flagEmoji": "🇳🇿",
+  "description": "新西兰以壮丽的自然风光和友善的人文环境闻名。打工度假签证对中国每年开放1000个名额，是最受欢迎的WHV目的地之一。生活节奏慢、自然环境好，适合喜欢户外和安静生活的人。",
+  "image": "/images/countries/new-zealand.webp",
+  "currency": "新西兰元 (NZD)",
+  "exchangeRate": "1 NZD ≈ 4.4 RMB",
+  "language": "英语、毛利语",
+  "costOfLiving": {
+    "monthlyMinRMB": 7000,
+    "monthlyMaxRMB": 12000,
+    "cityBreakdown": {
+      "奥克兰": 12000,
+      "惠灵顿": 11000,
+      "基督城": 9000,
+      "小城镇": 7000
+    }
+  },
+  "minWage": {
+    "rate": "23.15 NZD/小时",
+    "monthlyEstimateRMB": 15500,
+    "note": "按每周40小时计算。农场/果园工作通常按件计酬。"
+  },
+  "highlights": [
+    "打工度假签证允许12个月自由工作+旅行",
+    "自然环境极佳，适合户外爱好者",
+    "最低时薪较高",
+    "有机会通过技术移民长期居留"
+  ],
+  "officialLinks": {
+    "immigration": "https://www.immigration.govt.nz",
+    "education": "https://www.education.govt.nz",
+    "health": "https://www.health.govt.nz"
+  },
+  "tags": ["英语国家", "打工度假", "自然环境", "名额有限", "时薪高"]
+}

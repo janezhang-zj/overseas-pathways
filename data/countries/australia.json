@@ -1,0 +1,39 @@
+{
+  "slug": "australia",
+  "name": "澳大利亚",
+  "nameEn": "Australia",
+  "continent": "大洋洲",
+  "flagEmoji": "🇦🇺",
+  "description": "澳大利亚是南半球最受欢迎的留学和打工度假目的地之一。英语环境、多元文化、高时薪、完善的打工权益保护，使其成为预算有限但想出国体验的首选。",
+  "image": "/images/countries/australia.webp",
+  "currency": "澳元 (AUD)",
+  "exchangeRate": "1 AUD ≈ 4.7 RMB",
+  "language": "英语",
+  "costOfLiving": {
+    "monthlyMinRMB": 8000,
+    "monthlyMaxRMB": 15000,
+    "cityBreakdown": {
+      "悉尼": 15000,
+      "墨尔本": 13000,
+      "布里斯班": 11000,
+      "偏远地区": 8000
+    }
+  },
+  "minWage": {
+    "rate": "24.10 AUD/小时",
+    "monthlyEstimateRMB": 18000,
+    "note": "按每周38小时计算，实际兼职可能少于全职工时"
+  },
+  "highlights": [
+    "法定最低时薪全球最高之一",
+    "打工度假签证允许全职工作和短期学习",
+    "偏远地区留学有移民加分",
+    "留学生每两周可合法工作48小时"
+  ],
+  "officialLinks": {
+    "immigration": "https://immi.homeaffairs.gov.au",
+    "education": "https://www.education.gov.au",
+    "health": "https://www.health.gov.au"
+  },
+  "tags": ["英语国家", "打工度假", "高时薪", "时差小", "留学热门"]
+}

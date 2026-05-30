@@ -1,0 +1,12 @@
+{
+  "categories": [
+    { "value": "work-holiday", "label": "打工度假", "icon": "briefcase" },
+    { "value": "study", "label": "留学", "icon": "book" },
+    { "value": "work", "label": "工作", "icon": "wrench" },
+    { "value": "volunteer", "label": "志愿者", "icon": "heart" },
+    { "value": "internship", "label": "实习", "icon": "clipboard" },
+    { "value": "exchange", "label": "交换生", "icon": "swap" },
+    { "value": "au-pair", "label": "互惠生", "icon": "home" },
+    { "value": "training", "label": "职业培训", "icon": "hammer" }
+  ]
+}

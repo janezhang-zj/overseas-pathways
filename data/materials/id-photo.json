@@ -1,0 +1,28 @@
+{
+  "id": "id-photo",
+  "name": "签证照片",
+  "description": "符合目标国家签证要求的证件照片。各国尺寸要求不同，需提前确认。",
+  "category": "identity",
+  "required": true,
+  "processingLocation": "照相馆 / 自助证件照机",
+  "estimatedFeeRMB": 30,
+  "estimatedProcessingDays": 1,
+  "steps": [
+    {
+      "order": 1,
+      "title": "确认规格",
+      "description": "在目标国家使领馆官网确认照片尺寸（如澳洲35x45mm，美国51x51mm）、背景颜色（通常白色）。",
+      "duration": "5分钟"
+    },
+    {
+      "order": 2,
+      "title": "拍摄",
+      "description": "到照相馆说明是XX国签证照片，摄影师通常知道规格。或用自助证件照机选择对应国家。",
+      "duration": "15分钟"
+    }
+  ],
+  "tips": [
+    "电子版照片保存好，大部分签证支持在线提交电子版",
+    "建议同时打印6-8张纸质版备用，部分材料需要粘贴照片"
+  ]
+}

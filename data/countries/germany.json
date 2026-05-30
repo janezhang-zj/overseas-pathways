@@ -1,0 +1,39 @@
+{
+  "slug": "germany",
+  "name": "德国",
+  "nameEn": "Germany",
+  "continent": "欧洲",
+  "flagEmoji": "🇩🇪",
+  "description": "德国以公立大学免学费和高品质职业教育闻名。双元制职业培训（Ausbildung）边学边赚，毕业后可直接留在德国工作，是一条不需要大学学历也能出国的路径。",
+  "image": "/images/countries/germany.webp",
+  "currency": "欧元 (EUR)",
+  "exchangeRate": "1 EUR ≈ 7.8 RMB",
+  "language": "德语",
+  "costOfLiving": {
+    "monthlyMinRMB": 6000,
+    "monthlyMaxRMB": 10000,
+    "cityBreakdown": {
+      "慕尼黑": 10000,
+      "柏林": 8000,
+      "莱比锡": 6000,
+      "小城市": 6000
+    }
+  },
+  "minWage": {
+    "rate": "12.82 EUR/小时",
+    "monthlyEstimateRMB": 14000,
+    "note": "按每周40小时计算。双元制培训期间企业发放津贴，约800-1200欧/月。"
+  },
+  "highlights": [
+    "公立大学免学费（除巴符州）",
+    "双元制职业教育：企业付你工资学技术",
+    "毕业后可留德工作，技术人才缺口大",
+    "申根签证，畅游26个欧洲国家"
+  ],
+  "officialLinks": {
+    "immigration": "https://www.make-it-in-germany.com",
+    "education": "https://www.daad.de",
+    "health": "https://www.bundesgesundheitsministerium.de"
+  },
+  "tags": ["欧洲", "免学费", "职业教育", "可移民", "公立大学", "申根"]
+}

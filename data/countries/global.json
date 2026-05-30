@@ -1,0 +1,35 @@
+{
+  "slug": "global",
+  "name": "全球/多国",
+  "nameEn": "Global",
+  "continent": "全球",
+  "flagEmoji": "🌍",
+  "description": "部分出国路径不限于单一国家——WWOOF、HelpX、Workaway等平台覆盖全球100+国家，无论预算多少都能找到适合的体验。",
+  "image": "",
+  "currency": "多币种",
+  "exchangeRate": "视目的地国家而定",
+  "language": "视目的地国家而定",
+  "costOfLiving": {
+    "monthlyMinRMB": 0,
+    "monthlyMaxRMB": 5000,
+    "cityBreakdown": {
+      "换宿/志愿者": 0
+    }
+  },
+  "minWage": {
+    "rate": "无工资（换食宿）",
+    "monthlyEstimateRMB": 0,
+    "note": "WWOOF/HelpX/Workaway通常不支付工资，而是提供免费食宿作为劳动交换。"
+  },
+  "highlights": [
+    "覆盖130+国家的农场和家庭",
+    "零成本起步——只需机票和签证费",
+    "适合预算极低但想体验海外生活的人",
+    "不要求学历和英语水平"
+  ],
+  "officialLinks": {
+    "immigration": "https://wwoof.net",
+    "education": "https://www.helpx.net"
+  },
+  "tags": ["全球", "零成本", "换宿", "志愿者", "不限学历", "不限英语"]
+}

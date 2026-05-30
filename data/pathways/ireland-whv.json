@@ -1,0 +1,100 @@
+{
+  "slug": "ireland-whv",
+  "title": "爱尔兰打工度假签证（WHV）",
+  "subtitle": "欧洲唯一的英语母语国家，毕业可转工作签证。IT和金融业发达，是进入欧洲职场的最佳跳板",
+  "countrySlug": "ireland",
+  "category": "work-holiday",
+  "type": "打工度假签证（Working Holiday Authorisation）",
+  "isFeatured": true,
+
+  "eligibility": {
+    "minAge": 18,
+    "maxAge": 30,
+    "education": "associate",
+    "englishLevel": "ielts5.5",
+    "minBudgetRMB": 25000,
+    "maxBudgetRMB": 40000,
+    "specialRequirements": [
+      "年龄18-30岁（含30岁）",
+      "大专及以上学历，或在读本科至少完成2年",
+      "英语能力证明（雅思5.5或其他同等证明）",
+      "至少EUR 3000（约2.3万RMB）资金证明",
+      "每年名额有限（中国约200个名额，通过抽签或先到先得）"
+    ]
+  },
+
+  "overview": {
+    "description": "爱尔兰是欧洲唯一的英语母语国家，比英国留学便宜、比澳洲距中国更近。打工度假签证允许停留12个月，可工作可学习（≤6个月课程）。都柏林是Google、Facebook、Apple等科技巨头的欧洲总部所在地，IT和金融工作机会多。持WHV期间找到正式工作后，可转为工作许可（Employment Permit）长期居留。",
+    "officialPolicy": "根据爱尔兰移民局规定：18-30岁中国公民可申请Working Holiday Authorisation，停留12个月。期间可从事任何合法工作、可进行≤6个月学习。签证不可延长，但可在爱尔兰境内申请转换其他签证类型（如工作许可）。",
+    "officialPolicyUrl": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/working-holiday-authorisation/",
+    "visaDuration": "12个月（不可延长，但可转工签）",
+    "processingTime": "2-4个月",
+    "successRate": "中等偏高（名额有限但材料通过率高）",
+    "quota": "中国约200个名额/年"
+  },
+
+  "costs": {
+    "items": [
+      { "name": "签证申请费", "amountRMB": 2300, "type": "government", "note": "EUR 300" },
+      { "name": "雅思考试费", "amountRMB": 2170, "type": "language" },
+      { "name": "护照办理", "amountRMB": 120, "type": "document" },
+      { "name": "公证翻译费", "amountRMB": 500, "type": "document" },
+      { "name": "机票（往返）", "amountRMB": 6000, "type": "travel" },
+      { "name": "首月生活费+住宿", "amountRMB": 10000, "type": "living" },
+      { "name": "保险（1年）", "amountRMB": 2500, "type": "health" }
+    ],
+    "totalMinRMB": 23590,
+    "totalMaxRMB": 35000,
+    "currency": "RMB",
+    "note": "都柏林生活成本较高（房租€600-1000/月），但IT行业薪资也高（入门级€30K-45K/年）。其他城市如科克、戈尔韦成本显著更低。"
+  },
+
+  "timeline": [
+    {
+      "phase": "准备期",
+      "duration": "2-3个月",
+      "tasks": ["考英语（雅思5.5以上）", "办理/检查护照", "准备学历公证翻译", "关注爱尔兰移民局WHV名额开放时间"]
+    },
+    {
+      "phase": "申请期",
+      "duration": "2-4个月",
+      "tasks": ["名额开放后立即申请", "填写申请表+上传材料", "等待审核+面签通知", "体检（如需）", "领取签证"]
+    },
+    {
+      "phase": "出发与到达",
+      "duration": "第1-2周",
+      "tasks": ["购买机票", "抵达后办理GNIB卡（移民登记）", "申请PPS Number（社保号，工作必需）", "开设银行账户", "找房+找工作"]
+    }
+  ],
+
+  "materials": [
+    { "materialId": "passport", "required": true, "specificNote": "有效期需覆盖整个12个月停留期" },
+    { "materialId": "ielts-report", "required": true, "specificNote": "总分5.5以上" },
+    { "materialId": "bank-statement", "required": true, "specificNote": "至少EUR 3000（约2.3万RMB）+回程机票或等值资金" },
+    { "materialId": "degree-certificate", "required": true, "specificNote": "大专及以上毕业证中英文公证。" },
+    { "materialId": "academic-transcript", "required": true },
+    { "materialId": "id-photo", "required": true },
+    { "materialId": "health-insurance", "required": true, "specificNote": "覆盖全年的旅行/医疗保险" }
+  ],
+
+  "visualTags": [
+    { "icon": "money", "text": "启动资金2.5-3.5万" },
+    { "icon": "clock", "text": "12个月+可转工签" },
+    { "icon": "pin", "text": "欧洲英语国家唯一" },
+    { "icon": "refresh", "text": "IT/金融业就业机会多" }
+  ],
+  "renewable": "签证本身不可延长，但在爱尔兰境内找到正式工作后，可由雇主担保申请Employment Permit（工作许可），从而长期居留。爱尔兰Stamp 1G签证允许毕业生在爱尔兰工作1-2年。",
+
+  "faq": [
+    { "question": "爱尔兰和英国有什么区别？", "answer": "爱尔兰是独立国家、欧盟成员国，使用欧元。英国脱欧后，爱尔兰是欧洲唯一的英语母语国家。爱尔兰留学和生活成本比英国低不少，毕业后工签政策也更友好。" },
+    { "question": "不会爱尔兰语能生活吗？", "answer": "完全没问题。99%的爱尔兰人日常说英语，爱尔兰语仅在学校和少数盖尔塔赫特地区使用。所有工作、生活、政府服务都使用英语。" },
+    { "question": "WHV期间能找到正式工作吗？", "answer": "可以。如果你的专业技能匹配市场需求（IT、会计、护理、工程），WHV期间被雇主看中后可以转为工作许可。即使是服务业工作，也可作为跳板过渡。" }
+  ],
+
+  "tips": ["如果目标是IT行业，来之前LinkedIn更新好资料、GitHub整理好作品集", "都柏林的合租房通常在Daft.ie上找，提前了解各区域治安和交通", "申请PPS Number需要工作Offer或雇主信，尽早联系雇主提供"],
+  "warnings": ["⚠️ WHV本身不能延长，12个月到期必须离境或转换其他签证", "⚠️ 都柏林房租近年来上涨很快（合租€600-1000/月），建议到达前先订1-2周青旅再实地找房"],
+
+  "difficulty": "medium",
+  "tags": ["英语国家", "欧洲", "打工度假", "IT就业", "可转工签"],
+  "lastUpdated": "2026-05-29"
+}

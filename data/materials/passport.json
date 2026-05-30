@@ -1,0 +1,47 @@
+{
+  "id": "passport",
+  "name": "有效护照",
+  "description": "有效期需超过签证申请日至少6个月，且有至少2页空白签证页。",
+  "category": "identity",
+  "required": true,
+  "processingLocation": "户籍所在地公安局出入境管理处",
+  "alternativeLocation": "全国通办（2019年4月1日起）",
+  "estimatedFeeRMB": 120,
+  "estimatedProcessingDays": 15,
+  "validityPeriod": "10年（16周岁以上）/ 5年（16周岁以下）",
+  "officialUrl": "https://s.nia.gov.cn",
+  "officialPhone": "12367",
+  "steps": [
+    {
+      "order": 1,
+      "title": "网上预约",
+      "description": "登录\"移民局\"微信小程序或官网（s.nia.gov.cn），选择\"出入境证件预约\"，填写个人信息并选择办理地点。",
+      "duration": "10分钟",
+      "tips": "预约时间通常可选当日至7日内，热门城市建议提前3-5天预约。"
+    },
+    {
+      "order": 2,
+      "title": "准备材料",
+      "description": "携带本人身份证原件、近期免冠照片（可现场拍摄），16周岁以下需监护人陪同并携带户口簿。",
+      "duration": "提前准备"
+    },
+    {
+      "order": 3,
+      "title": "现场办理",
+      "description": "按预约时间到达出入境大厅，取号 → 拍照 → 核验身份 → 采集指纹 → 缴费。",
+      "duration": "30-60分钟"
+    },
+    {
+      "order": 4,
+      "title": "领取护照",
+      "description": "7-15个工作日后凭回执单领取，可选邮寄（快递费另计约20元）。",
+      "duration": "7-15个工作日",
+      "tips": "邮寄通常比自取快2-3天，建议选择邮寄。"
+    }
+  ],
+  "tips": [
+    "护照照片要求白底、免冠、露出耳朵和眉毛，现场拍照15-30元",
+    "如果已有护照，请提前检查有效期，不足1年建议提前换发",
+    "护照上的英文姓名以汉语拼音为准，务必确认拼写正确"
+  ]
+}

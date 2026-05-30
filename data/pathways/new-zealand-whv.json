@@ -1,0 +1,134 @@
+{
+  "slug": "new-zealand-whv",
+  "title": "新西兰打工度假签证（WHV）",
+  "subtitle": "每年1000个名额，在新西兰边旅行边工作12个月，适合喜欢自然和户外生活的年轻人",
+  "countrySlug": "new-zealand",
+  "category": "work-holiday",
+  "type": "打工度假签证（China Working Holiday Scheme）",
+  "isFeatured": true,
+  "eligibility": {
+    "minAge": 18,
+    "maxAge": 30,
+    "education": "high-school",
+    "englishLevel": "ielts5.5",
+    "minBudgetRMB": 25000,
+    "maxBudgetRMB": 35000,
+    "specialRequirements": [
+      "申请时年龄必须未满31周岁",
+      "高中及以上学历",
+      "雅思总分不低于5.5（无单项要求）",
+      "至少NZD 4200（约18500 RMB）资金证明",
+      "每年1000个名额，通常开放当天抢完"
+    ]
+  },
+  "overview": {
+    "description": "新西兰打工度假签证允许18-30岁的中国公民在新西兰停留12个月（英国/加拿大公民可停留23个月），期间可以合法工作、学习和旅行。新西兰以自然风光闻名，农业和旅游业是主要就业领域，农场、果园、滑雪场、酒店是WHVer最常见的打工地点。",
+    "officialPolicy": "新西兰移民局官网规定：持中国打工度假签证可在新西兰停留12个月，可从事任何合法工作（但不能接受永久工作offer），可进行不超过6个月的短期学习。满足条件可申请延期3个月。",
+    "officialPolicyUrl": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/china-working-holiday-visa",
+    "visaDuration": "12个月（可申请延期3个月）",
+    "processingTime": "1-3个月（名额抢到后递交材料）",
+    "successRate": "较低（名额极其紧张，通常开放当天抢完，需提前做好准备）",
+    "quota": "每年1000个名额，通常在每年开放日当天抢完"
+  },
+  "costs": {
+    "items": [
+      { "name": "签证申请费", "amountRMB": 2000, "type": "government", "note": "NZD 455" },
+      { "name": "雅思考试费", "amountRMB": 2170, "type": "language" },
+      { "name": "护照办理", "amountRMB": 120, "type": "document" },
+      { "name": "体检费", "amountRMB": 1300, "type": "health" },
+      { "name": "公证费", "amountRMB": 400, "type": "document" },
+      { "name": "单程机票", "amountRMB": 5000, "type": "travel" },
+      { "name": "首月生活费", "amountRMB": 8000, "type": "living" }
+    ],
+    "totalMinRMB": 19990,
+    "totalMaxRMB": 28000,
+    "currency": "RMB",
+    "note": "到达后通常2-3周找到工作。农场、果园、旅游业是主要就业方向。"
+  },
+  "timeline": [
+    {
+      "phase": "准备期",
+      "duration": "2-4个月",
+      "tasks": [
+        "报名雅思考试并备考",
+        "办理/检查护照有效期",
+        "关注新西兰移民局官网，了解每年名额开放时间",
+        "提前准备好申请所需材料扫描件"
+      ]
+    },
+    {
+      "phase": "抢名额",
+      "duration": "名额开放当天",
+      "tasks": [
+        "提前注册好移民局账户",
+        "开放当天尽早登录（新西兰时间10:00am = 北京时间6:00am）",
+        "在线填写申请表并支付签证费",
+        "收到确认邮件后即可准备递交材料"
+      ]
+    },
+    {
+      "phase": "递交材料",
+      "duration": "1-2个月",
+      "tasks": [
+        "按要求准备所有材料",
+        "预约体检",
+        "将所有材料提交给新西兰移民局",
+        "等待审核结果"
+      ]
+    },
+    {
+      "phase": "出发",
+      "duration": "2-4周",
+      "tasks": [
+        "收到下签信",
+        "购买机票、预订短期住宿",
+        "准备行李（新西兰对行李检疫非常严格，食物和户外装备需要申报）"
+      ]
+    }
+  ],
+  "materials": [
+    { "materialId": "passport", "required": true },
+    { "materialId": "ielts-report", "required": true, "specificNote": "总分不低于5.5，没有单项要求" },
+    { "materialId": "bank-statement", "required": true, "specificNote": "至少NZD 4200（约18500 RMB）资金证明" },
+    { "materialId": "degree-certificate", "required": true, "specificNote": "至少高中学历" },
+    { "materialId": "health-check", "required": true, "specificNote": "需完成胸部X光检查" },
+    { "materialId": "id-photo", "required": true },
+    { "materialId": "visa-application-form", "required": true }
+  ],
+  "visualTags": [
+    { "icon": "money", "text": "启动资金2-3万" },
+    { "icon": "clock", "text": "周期2-5个月" },
+    { "icon": "dice", "text": "抢名额制（非抽签）" },
+    { "icon": "pin", "text": "农场/果园工作充足" }
+  ],
+  "renewable": "在新西兰从事农业（种植/收获/包装）工作满3个月，可申请延期3个月。部分情况下可通过找到雇主担保转为工作签证。",
+  "faq": [
+    {
+      "question": "名额什么时候开放？",
+      "answer": "通常在每年5-7月开放，具体日期由新西兰移民局提前公告。名额通常开放当天就抢完（1000个/年），建议提前准备好所有材料扫描件。"
+    },
+    {
+      "question": "和澳洲WHV有什么区别？",
+      "answer": "新西兰WHV是抢名额制（先到先得），澳洲462是抽签制（随机抽取）。新西兰高中学历即可，澳洲要大专以上。新西兰雅思要求5.5（比澳洲4.5高）。"
+    },
+    {
+      "question": "没抢到名额有别的办法吗？",
+      "answer": "可以考虑WWOOF（打工换宿）、澳洲WHV（抽签制，竞争不同）、或通过留学渠道前往新西兰。也可以等下一年名额重新申请。"
+    }
+  ],
+
+  "tips": [
+    "名额通常在每年5-7月开放，提前关注新西兰移民局官网公告",
+    "抢名额比准备材料更关键——一旦抢到名额，材料可以在后续准备",
+    "新西兰农场和果园工作对体力要求较高，出发前做好心理和体能准备",
+    "Kiwi果采摘季（3-6月）和樱桃采摘季（12-1月）是最容易找工作的时间"
+  ],
+  "warnings": [
+    "名额极其有限（1000个/年），通常开放当天就抢完",
+    "新西兰南岛冬季（6-8月）户外工作机会少，建议在春季/夏季到达",
+    "新西兰物价比澳洲略高，特别是食品和日用品"
+  ],
+  "difficulty": "hard",
+  "tags": ["打工度假", "新西兰", "名额抢手", "自然环境", "农业工作"],
+  "lastUpdated": "2026-05-29"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "ireland",
+  "name": "爱尔兰",
+  "nameEn": "Ireland",
+  "continent": "欧洲",
+  "flagEmoji": "🇮🇪",
+  "description": "爱尔兰是欧洲唯一的英语母语国家，留学费用比英国低不少，毕业后可拿1-2年工作签证（Stamp 1G）。IT和金融行业发达，是进入欧洲职场的好跳板。打工度假签证对中国开放。",
+  "image": "/images/countries/ireland.webp",
+  "currency": "欧元 (EUR)",
+  "exchangeRate": "1 EUR ≈ 7.8 RMB",
+  "language": "英语、爱尔兰语",
+  "costOfLiving": {
+    "monthlyMinRMB": 8000,
+    "monthlyMaxRMB": 14000,
+    "cityBreakdown": {
+      "都柏林": 14000,
+      "科克": 10000,
+      "戈尔韦": 9000,
+      "小城镇": 8000
+    }
+  },
+  "minWage": {
+    "rate": "13.50 EUR/小时",
+    "monthlyEstimateRMB": 15500,
+    "note": "按每周39小时计算。都柏林就业机会最多。"
+  },
+  "highlights": [
+    "英语母语国家，欧洲唯一",
+    "毕业后1-2年工作签证",
+    "IT/金融/制药行业发达",
+    "打工度假签证对中国开放",
+    "申根区外的欧盟国家"
+  ],
+  "officialLinks": {
+    "immigration": "https://www.irishimmigration.ie",
+    "education": "https://www.gov.ie/en/education",
+    "health": "https://www.gov.ie/en/health"
+  },
+  "tags": ["英语国家", "欧洲", "留学", "工作签证", "IT行业"]
+}

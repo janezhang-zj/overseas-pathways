@@ -1,0 +1,43 @@
+{
+  "id": "language-certificate",
+  "name": "语言能力证书",
+  "description": "证明外语水平的官方证书（非英语国家使用，如德语、法语、日语、韩语等）。",
+  "category": "language",
+  "required": true,
+  "processingLocation": "各语言考试中心",
+  "estimatedFeeRMB": 1500,
+  "estimatedProcessingDays": 21,
+  "validityPeriod": "永久有效（部分机构2年）",
+  "steps": [
+    {
+      "order": 1,
+      "title": "学习语言",
+      "description": "报名语言培训班或自学，达到目标水平（如德语B1/B2，日语N3/N2）。",
+      "duration": "6-14个月（零基础到B1）"
+    },
+    {
+      "order": 2,
+      "title": "报名考试",
+      "description": "在对应语言考试官网报名（如歌德学院、JLPT、TOPIK等）。",
+      "duration": "15分钟"
+    },
+    {
+      "order": 3,
+      "title": "参加考试",
+      "description": "按考试日期参加笔试和/或口试。",
+      "duration": "半天"
+    },
+    {
+      "order": 4,
+      "title": "获取证书",
+      "description": "考后2-8周出成绩，证书邮寄。",
+      "duration": "2-8周"
+    }
+  ],
+  "tips": [
+    "德语：歌德学院B1/B2证书约1400元，telc约1200元",
+    "日语：JLPT N3/N2约550元，每年7月和12月两次考试",
+    "韩语：TOPIK约300元，每年4月和10月两次考试",
+    "法语：DELF/DALF约1500-2000元"
+  ]
+}

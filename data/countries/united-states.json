@@ -1,0 +1,40 @@
+{
+  "slug": "united-states",
+  "name": "美国",
+  "nameEn": "United States",
+  "continent": "北美洲",
+  "flagEmoji": "🇺🇸",
+  "description": "美国是全球最大的经济体，拥有众多世界级企业和多元文化环境。除了传统的F-1留学签证，J-1交流访问签证（包括Intern和Trainee项目）为在校生和毕业生提供了一条低成本赴美实习培训的路径。",
+  "image": "/images/countries/united-states.webp",
+  "currency": "美元 (USD)",
+  "exchangeRate": "1 USD ≈ 7.2 RMB",
+  "language": "英语",
+  "costOfLiving": {
+    "monthlyMinRMB": 8000,
+    "monthlyMaxRMB": 20000,
+    "cityBreakdown": {
+      "纽约/旧金山": 20000,
+      "洛杉矶/西雅图": 15000,
+      "芝加哥/波士顿": 13000,
+      "中小城市": 8000
+    }
+  },
+  "minWage": {
+    "rate": "各州不同（$7.25-17.00/小时）",
+    "monthlyEstimateRMB": 12000,
+    "note": "联邦最低$7.25/小时，加州$16+、纽约$15+。ITP实习通常按行业标准支付有竞争力的薪资。"
+  },
+  "highlights": [
+    "J-1 Intern/Trainee签证允许在校生和毕业生赴美实习培训",
+    "不需要像H-1B那样抽签，通过指定Sponsor机构申请",
+    "实习通常有薪，可覆盖在美生活费",
+    "大量科技公司、金融机构、非营利组织接受J-1实习",
+    "回国后有2年居住要求（部分国家/专业可豁免）"
+  ],
+  "officialLinks": {
+    "immigration": "https://travel.state.gov/content/travel/en/us-visas/study/exchange.html",
+    "education": "https://j1visa.state.gov",
+    "health": "https://www.healthcare.gov"
+  },
+  "tags": ["英语国家", "实习", "ITP", "科技公司", "文化交流", "J-1"]
+}

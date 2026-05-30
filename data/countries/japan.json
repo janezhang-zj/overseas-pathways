@@ -1,0 +1,39 @@
+{
+  "slug": "japan",
+  "name": "日本",
+  "nameEn": "Japan",
+  "continent": "亚洲",
+  "flagEmoji": "🇯🇵",
+  "description": "日本距离近、文化相近、留学费用相对欧美低很多。语言学校和专门学校是常见的出国路径，毕业后可在日本就职。对中国学生来说，汉字环境和地理位置是最直接的优势。",
+  "image": "/images/countries/japan.webp",
+  "currency": "日元 (JPY)",
+  "exchangeRate": "100 JPY ≈ 4.8 RMB",
+  "language": "日语",
+  "costOfLiving": {
+    "monthlyMinRMB": 6000,
+    "monthlyMaxRMB": 10000,
+    "cityBreakdown": {
+      "东京": 10000,
+      "大阪": 8000,
+      "福冈": 6500,
+      "地方城市": 6000
+    }
+  },
+  "minWage": {
+    "rate": "约1000 JPY/小时（各地不同）",
+    "monthlyEstimateRMB": 10000,
+    "note": "留学生每周可打工28小时，假期可全职。时薪约50-60 RMB。"
+  },
+  "highlights": [
+    "距离近，机票便宜（往返约2000-4000元）",
+    "留学生可合法打工（每周28小时）",
+    "语言学校门槛低，高中毕业即可",
+    "毕业后可就职，获取工作签证"
+  ],
+  "officialLinks": {
+    "immigration": "https://www.moj.go.jp/isa",
+    "education": "https://www.mext.go.jp",
+    "health": "https://www.mhlw.go.jp"
+  },
+  "tags": ["亚洲", "距离近", "汉字文化", "可打工", "留学", "就职"]
+}

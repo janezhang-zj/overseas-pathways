@@ -1,0 +1,85 @@
+{
+  "slug": "wwoof-global",
+  "title": "WWOOF 全球农场打工换宿",
+  "subtitle": "零成本起步——每天劳动4-6小时换免费食宿。覆盖130+国家，不限学历不限英语，最接近'说走就走'的出国方式",
+  "countrySlug": "global",
+  "category": "volunteer",
+  "type": "打工换宿（无签证 / 需自行申请相应国家旅游或短期签证）",
+  "isFeatured": true,
+
+  "eligibility": {
+    "minAge": 18,
+    "maxAge": 60,
+    "education": "any",
+    "englishLevel": "none",
+    "minBudgetRMB": 5000,
+    "maxBudgetRMB": 15000,
+    "specialRequirements": [
+      "年满18岁（部分国家上限50岁）",
+      "没有学历或语言要求",
+      "需要自行办理相应国家的旅游/短期签证",
+      "大部分项目需要自付往返机票",
+      "身体健康，能适应户外体力劳动（农场工作为主）",
+      "WWOOF会员年费（各国不同，约200-400元/年）"
+    ]
+  },
+
+  "overview": {
+    "description": "WWOOF（World Wide Opportunities on Organic Farms，全球有机农场打工换宿）是一个覆盖130+国家的国际网络。志愿者每天在有机农场/家庭劳动4-6小时（种植、采摘、照顾动物、堆肥等），换取免费食宿。工作时间外可以自由探索当地文化和自然。这是最低成本的出国体验方式——不需要签证费（使用旅游签）、不需要学历/语言、不需要找到雇主。唯一的必需开销是机票+零花钱。很多人通过WWOOF实现了'零预算旅行'的梦想。",
+    "officialPolicy": "WWOOF本身不是签证类型——志愿者需要根据目的地国家自行办理相应的旅游/短期签证。大部分WWOOF志愿者使用旅游签证入境，但需要确认目的国是否允许旅游签证持有者进行换宿活动。部分国家（如新西兰、澳洲）对WWOOF持宽松态度，因为它是文化交流而非雇佣关系。",
+    "officialPolicyUrl": "https://wwoof.net",
+    "visaDuration": "视目的地国家旅游签证期限（通常30天-90天，可续签或换国家）",
+    "processingTime": "签证视目的地而定。WWOOF项目本身：找到Host后1-4周即可出发",
+    "successRate": "极高（任何人都能申请，只要愿意劳动和融入当地生活）",
+    "quota": "无限制，WWOOF网络中有数万个Host随时接受志愿者"
+  },
+
+  "costs": {
+    "items": [
+      { "name": "WWOOF会员年费", "amountRMB": 300, "type": "government", "note": "各国分会不同，约200-400元。一次付费可联系该国所有Host" },
+      { "name": "往返机票", "amountRMB": 5000, "type": "travel", "note": "视目的地而定。日本/韩国/东南亚仅1000-3000元" },
+      { "name": "旅行保险", "amountRMB": 1000, "type": "health", "note": "建议覆盖全程" },
+      { "name": "零花钱/应急金", "amountRMB": 3000, "type": "living", "note": "换宿期间几乎没有生活开销，但需备少量现金应急" }
+    ],
+    "totalMinRMB": 5300,
+    "totalMaxRMB": 10000,
+    "currency": "RMB",
+    "note": "食宿全部由Host免费提供！唯一的真实开销是机票+保险。这是所有出国路径中成本最低的一个。"
+  },
+
+  "timeline": [
+    { "phase": "选择目的地", "duration": "1-2周", "tasks": ["研究感兴趣的国家和WWOOF分会", "确认该国的旅游签证政策（是否需要提前办、停留期多长）", "注册对应国家的WWOOF会员（wwoof.net选国家）"] },
+    { "phase": "联系Host", "duration": "2-4周", "tasks": ["浏览Host列表（农场、家庭、生态村等），阅读评价", "给感兴趣的Host发邮件自我介绍（英语或当地语言）", "和Host讨论：工作内容、时长、住宿条件、饮食偏好、到达时间", "确认双方意愿后确定日期"] },
+    { "phase": "出发准备", "duration": "2-4周", "tasks": ["办理旅游签证（如需）", "购买往返机票", "购买旅行保险", "准备适合农场劳动的衣服和鞋子"] },
+    { "phase": "WWOOFing！", "duration": "视个人计划", "tasks": ["每天劳动4-6小时（种菜、浇水、喂鸡、做奶酪、修围栏……因Host而异）", "剩余时间自由探索当地：爬山、逛小镇、学当地语言、认识新朋友", "通常在一个Host待1-4周，然后可以换到下一个Host或下一个国家"] }
+  ],
+
+  "materials": [
+    { "materialId": "passport", "required": true, "specificNote": "有效期≥6个月。没有护照的话需要先去办——这可能是唯一需要提前准备的材料" },
+    { "materialId": "bank-statement", "required": false, "specificNote": "部分国家办理旅游签证需要资金证明（通常1-3万RMB）。换宿本身不需要资金证明" },
+    { "materialId": "id-photo", "required": false, "specificNote": "旅游签证可能需要" },
+    { "materialId": "health-insurance", "required": false, "specificNote": "强烈建议购买，WWOOF劳动有一定的户外风险" }
+  ],
+
+  "visualTags": [
+    { "icon": "money", "text": "零成本体验（仅机票）" },
+    { "icon": "clock", "text": "随时出发，周期灵活" },
+    { "icon": "pin", "text": "覆盖130+国家" },
+    { "icon": "refresh", "text": "不限学历不限英语" }
+  ],
+  "renewable": "没有签证限制。可以在不同国家之间辗转WWOOFing——比如在新西兰做完3个月换宿→飞日本继续→飞意大利继续。只要每次办理好对应国家的旅游签证即可。这也是很多环球旅行者使用的低成本方式。",
+
+  "faq": [
+    { "question": "WWOOF安全吗？", "answer": "整体安全，WWOOF有评价系统和会员审核机制。但安全性取决于你选择的Host和你自己的判断。建议：只选有多个好评的老Host、和Host视频通话确认信息、告诉家人/朋友你的具体地址、准备好随时离开的应急方案。" },
+    { "question": "不会当地语言怎么办？", "answer": "很多Host能用英语交流（尤其英语国家、日本、欧洲）。去非英语国家之前学一些基础当地语言会更有帮助。翻译APP（Google Translate等）能解决大部分日常问题。肢体语言+笑容在哪里都通用。" },
+    { "question": "农场工作会不会很辛苦？", "answer": "看Host和季节。有的是轻松的蔬菜种植+浇花，有的是体力要求高的伐木+牲畜照管。联系Host时直接问清楚工作内容和劳动强度。如果身体不适合重体力劳动，可以找家庭花园、生态教育中心等轻松的Host。" },
+    { "question": "WWOOF和打工度假（WHV）有什么区别？", "answer": "WWOOF是文化交流/志愿者性质——没有工资、不要求工作签证、用旅游签即可。WHV是有薪工作——需要特定签证、有年龄和学历限制。WWOOF适合预算极低、想体验多元文化的人；WHV适合想赚钱+存钱的人。很多人两者都做——先用WHV赚钱，旅途间隙用WWOOF省钱旅行。" }
+  ],
+
+  "tips": ["WWOOF最好的季节是春夏季（种植和收获季节），工作内容丰富且天气好", "一个人去WWOOFing完全可以——很多Host习惯接待独自旅行的志愿者。你也会遇到来自世界各地的小伙伴", "如果你喜欢有结构的安排，也可考虑HelpX或Workaway（类似WWOOF，但Host类型更多元——不限于农场，还有青旅、家庭、瑜伽中心等）", "澳洲WHV+新西兰WHV+WWOOF穿插使用的组合方式最灵活——以工养旅"],
+  "warnings": ["⚠️ WWOOF不是签证！你必须合法入境——确认目的地国家是否允许旅游签证进行换宿活动", "⚠️ 如果Host待遇和描述不符（住宿条件太差、劳动时间超标、饮食克扣），直接离开并联系WWOOF投诉", "⚠️ 农场的户外劳动有一定风险（晒伤、蚊虫叮咬、工具伤），务必购买旅行保险并了解基本急救知识"],
+
+  "difficulty": "easy",
+  "tags": ["全球", "零成本", "换宿", "无学历要求", "无英语要求", "农场", "文化交流"],
+  "lastUpdated": "2026-05-29"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "visa-application-form",
+  "name": "签证申请表",
+  "description": "目标国家签证的在线或纸质申请表。需如实填写个人信息、旅行史、工作经历等。",
+  "category": "document",
+  "required": true,
+  "processingLocation": "目标国家移民局官网在线填写",
+  "estimatedFeeRMB": 0,
+  "estimatedProcessingDays": 1,
+  "steps": [
+    {
+      "order": 1,
+      "title": "注册账号",
+      "description": "在目标国家移民局官网注册个人账户（如澳洲ImmiAccount），或下载纸质申请表。",
+      "duration": "10分钟"
+    },
+    {
+      "order": 2,
+      "title": "填写信息",
+      "description": "按提示填写个人信息、护照信息、旅行计划、工作经历、健康状况等。务必如实填写。",
+      "duration": "30-60分钟",
+      "tips": "提前准备好护照、旅行记录等信息以便填写。所有信息必须真实，虚假申报可能导致拒签。"
+    },
+    {
+      "order": 3,
+      "title": "上传材料",
+      "description": "按要求上传护照扫描件、照片、资金证明等文件的电子版。",
+      "duration": "15-30分钟"
+    },
+    {
+      "order": 4,
+      "title": "缴费提交",
+      "description": "在线支付签证费，提交申请。保存申请编号以便查询进度。",
+      "duration": "10分钟"
+    }
+  ],
+  "tips": [
+    "在线申请通常比纸质申请更快",
+    "提交前仔细核对所有信息，提交后修改很麻烦",
+    "保存好申请编号（Reference Number），这是查询进度的凭证"
+  ]
+}

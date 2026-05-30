@@ -1,0 +1,47 @@
+{
+  "id": "ielts-report",
+  "name": "雅思成绩单",
+  "description": "International English Language Testing System（国际英语语言测试系统）成绩报告。",
+  "category": "language",
+  "required": false,
+  "processingLocation": "全国各城市雅思考试中心",
+  "estimatedFeeRMB": 2170,
+  "estimatedProcessingDays": 13,
+  "validityPeriod": "2年",
+  "officialUrl": "https://ielts.neea.cn",
+  "officialPhone": "010-82345671",
+  "steps": [
+    {
+      "order": 1,
+      "title": "注册报名",
+      "description": "访问 NEEA 雅思报名官网（ielts.neea.cn），注册账户，选择考试类型（A类学术类/G类培训类）和考试日期。",
+      "duration": "15分钟",
+      "tips": "出国留学一般选A类，移民和打工度假通常接受G类。请先确认签证要求。"
+    },
+    {
+      "order": 2,
+      "title": "缴纳考试费",
+      "description": "通过支付宝或网上银行支付考试费用2170元。",
+      "duration": "即时到账"
+    },
+    {
+      "order": 3,
+      "title": "参加考试",
+      "description": "考试分为笔试（听力、阅读、写作，约2小时40分钟）和口语（11-14分钟，可能安排在笔试前/后一周）。",
+      "duration": "半天至一天",
+      "tips": "口语考试日期可能与笔试不同，务必提前查清楚口语时间。"
+    },
+    {
+      "order": 4,
+      "title": "获取成绩",
+      "description": "笔试后第13天可在线查分，纸质成绩单随后邮寄至报名地址。",
+      "duration": "13天出分 + 3-5天邮寄",
+      "tips": "建议提前1-2个月备考。如果本地没有考点，可能需要前往省会或大城市参加考试，提前规划好交通和住宿。"
+    }
+  ],
+  "tips": [
+    "如果城市没有考点，需到最近的大城市参加考试，额外交通/住宿费用约500-1500元",
+    "部分国家也接受其它考试，如PTE（费用更低，约1950元，出分更快2-5天）",
+    "成绩可免费寄送5份，超出部分每份60元"
+  ]
+}

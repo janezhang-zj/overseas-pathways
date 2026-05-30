@@ -1,0 +1,31 @@
+{
+  "id": "degree-certificate",
+  "name": "学历证书/毕业证",
+  "description": "最高学历的毕业证书。多数国家要求翻译公证（英文或目标国家语言）。",
+  "category": "education",
+  "required": true,
+  "processingLocation": "毕业院校教务处",
+  "estimatedFeeRMB": 50,
+  "estimatedProcessingDays": 7,
+  "validityPeriod": "永久有效",
+  "steps": [
+    {
+      "order": 1,
+      "title": "准备原件",
+      "description": "找到毕业证书原件。如遗失，需到毕业院校教务处申请补办。",
+      "duration": "当场（如原件在手）",
+      "tips": "补办毕业证通常需要登报挂失 + 学校申请，周期约1-2周。"
+    },
+    {
+      "order": 2,
+      "title": "翻译公证",
+      "description": "携带毕业证原件和身份证到公证处，申请英文翻译公证。",
+      "duration": "5-7个工作日",
+      "tips": "公证费约200-400元/份。建议多办1-2份备用。"
+    }
+  ],
+  "tips": [
+    "高中毕业证、大专/本科毕业证都需要。如果是在读学生，提供在读证明即可。",
+    "部分国家还需要教育部学历认证（如德国APS审核），需额外2-3个月。"
+  ]
+}

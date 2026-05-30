@@ -1,0 +1,36 @@
+{
+  "id": "health-insurance",
+  "name": "海外健康保险",
+  "description": "覆盖在海外期间的医疗保险。多数国家要求签证申请时即提供保险证明。",
+  "category": "insurance",
+  "required": true,
+  "processingLocation": "保险公司（线上购买）",
+  "estimatedFeeRMB": 1500,
+  "estimatedProcessingDays": 1,
+  "validityPeriod": "覆盖整个签证有效期",
+  "steps": [
+    {
+      "order": 1,
+      "title": "确认保险要求",
+      "description": "查询目标国家对健康保险的具体要求（保额门槛、覆盖范围）。",
+      "duration": "10分钟"
+    },
+    {
+      "order": 2,
+      "title": "对比购买",
+      "description": "在保险公司官网或第三方平台对比价格，选择符合要求的保险产品后在线购买。",
+      "duration": "30分钟",
+      "tips": "推荐：安联、平安、美亚等国际旅行保险。德国需购买公立保险（TK/AOK等）。"
+    },
+    {
+      "order": 3,
+      "title": "获取保单",
+      "description": "购买后即生成电子保单，打印备用。",
+      "duration": "即时"
+    }
+  ],
+  "tips": [
+    "保险费用按天计算，通常1-3元/天",
+    "有些国家在到达后要求购买本地保险（如德国公立保险），出发前的旅行险只是过渡"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "health-check",
+  "name": "出国体检报告",
+  "description": "部分国家要求的移民/签证体检，需在指定的体检中心进行，包含常规体检、X光胸片等。",
+  "category": "health",
+  "required": false,
+  "processingLocation": "各国使领馆指定的体检中心",
+  "estimatedFeeRMB": 1300,
+  "estimatedProcessingDays": 3,
+  "validityPeriod": "12个月",
+  "steps": [
+    {
+      "order": 1,
+      "title": "确认体检要求",
+      "description": "在目标国家移民局官网确认是否需要体检、体检项目、以及指定的体检中心名单。",
+      "duration": "10分钟"
+    },
+    {
+      "order": 2,
+      "title": "预约体检",
+      "description": "提前电话或网上预约指定体检中心，确认需携带的材料（护照、体检表、照片）。",
+      "duration": "10分钟"
+    },
+    {
+      "order": 3,
+      "title": "前往体检",
+      "description": "按预约时间前往体检中心，空腹抽血、拍X光胸片、常规体检。",
+      "duration": "1-2小时"
+    },
+    {
+      "order": 4,
+      "title": "获取结果",
+      "description": "体检结果通常在3天后可取，部分体检中心可直接上传至移民局系统，无需本人提交。",
+      "duration": "3个工作日"
+    }
+  ],
+  "tips": [
+    "体检费用各地差异较大（约800-1500元），建议提前电话咨询对比",
+    "部分体检中心需要预约排队1-2周，建议提前规划时间",
+    "如有乙肝、结核等传染病史，可能影响签证结果，建议提前了解目标国家的健康要求"
+  ]
+}

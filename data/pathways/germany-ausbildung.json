@@ -1,0 +1,147 @@
+{
+  "slug": "germany-ausbildung",
+  "title": "德国双元制职业培训（Ausbildung）",
+  "subtitle": "边学边赚，企业付你工资学技术，毕业后留德工作——适合学历不高但动手能力强的人",
+  "countrySlug": "germany",
+  "category": "training",
+  "type": "职业培训签证（§16a AufenthG）",
+  "isFeatured": true,
+
+  "eligibility": {
+    "minAge": 18,
+    "maxAge": 35,
+    "education": "high-school",
+    "englishLevel": "none",
+    "minBudgetRMB": 30000,
+    "maxBudgetRMB": 60000,
+    "specialRequirements": [
+      "需要德语B1或B2水平（最重要的一条）",
+      "需要德国企业出具的培训合同（Ausbildungsvertrag）",
+      "年龄越小越容易被录取",
+      "专业需与之前学历/工作经历有一定相关性"
+    ]
+  },
+
+  "overview": {
+    "description": "德国双元制职业教育（Duale Ausbildung）是德国特有的职业培训体系。学员与企业签订培训合同，每周3-4天在企业实践、1-2天在职业学校学习理论。企业按月支付培训津贴（第一年约800-1100欧元/月），毕业后通常可直接留在企业工作。非常适合学历不高但动手能力强、愿意踏实学一门技术的人。",
+    "officialPolicy": "根据德国居留法第16a条（§16a AufenthG），外国人在获得德国企业培训合同并满足德语水平要求后，可申请职业培训居留许可。培训期间和毕业后均可在德国合法居留。",
+    "officialPolicyUrl": "https://www.make-it-in-germany.com/en/visa-residence/types/training/apprenticeship",
+    "visaDuration": "培训期间（通常2-3.5年）+ 毕业后可延长1年找工作",
+    "processingTime": "2-4个月（需先拿到培训合同）",
+    "successRate": "较高（只要有合同和德语证书，材料齐全基本都能通过）",
+    "quota": "无固定名额限制"
+  },
+
+  "costs": {
+    "items": [
+      { "name": "签证申请费", "amountRMB": 600, "type": "government" },
+      { "name": "德语学习（A1到B1/B2）", "amountRMB": 15000, "type": "language", "note": "国内培训班或线上课程，自学可大幅降低成本" },
+      { "name": "歌德B1/B2考试费", "amountRMB": 1400, "type": "language" },
+      { "name": "护照办理", "amountRMB": 120, "type": "document" },
+      { "name": "APS审核/学历认证", "amountRMB": 1500, "type": "document", "note": "部分联邦州要求" },
+      { "name": "公证翻译费", "amountRMB": 800, "type": "document" },
+      { "name": "机票", "amountRMB": 5000, "type": "travel" },
+      { "name": "首月生活费+租房押金", "amountRMB": 8000, "type": "living" },
+      { "name": "健康保险（首月）", "amountRMB": 800, "type": "health" }
+    ],
+    "totalMinRMB": 33220,
+    "totalMaxRMB": 55000,
+    "currency": "RMB",
+    "note": "培训期间企业每月支付800-1200欧元津贴（约6200-9400 RMB），基本覆盖生活费（800-1000欧/月）。第一年后即可实现收支平衡。"
+  },
+
+  "timeline": [
+    {
+      "phase": "语言准备期",
+      "duration": "8-14个月",
+      "tasks": [
+        "零基础到德语B1：脱产学习约8-10个月，业余学习约12-14个月",
+        "报名歌德B1考试，等待成绩",
+        "如果目标是护理/IT等要求高的专业，需达到B2，额外需要3-4个月"
+      ]
+    },
+    {
+      "phase": "找培训岗位",
+      "duration": "2-6个月",
+      "tasks": [
+        "在德国联邦劳工局官网（arbeitsagentur.de）、Ausbildung.de等平台搜索职位",
+        "准备德语简历和动机信（可请德语老师帮忙润色）",
+        "通过视频面试或电话面试与德国企业沟通",
+        "获得企业颁发的培训合同（Ausbildungsvertrag）"
+      ]
+    },
+    {
+      "phase": "签证申请",
+      "duration": "1-3个月",
+      "tasks": [
+        "在德国驻华使领馆网站预约签证面试",
+        "准备所有签证材料（合同、德语证书、护照、体检等）",
+        "递交签证申请并采集指纹",
+        "等待审核，约4-8周出结果"
+      ]
+    },
+    {
+      "phase": "出发与入学",
+      "duration": "2-4周",
+      "tasks": [
+        "购买机票（开学前2-4周到达）",
+        "找房（WG-Gesucht.de，或请企业协助）",
+        "Anmeldung（户籍登记，到达14天内必须完成）",
+        "办理银行账户和TK/AOK健康保险",
+        "正式开学/培训第一天"
+      ]
+    }
+  ],
+
+  "materials": [
+    { "materialId": "passport", "required": true },
+    { "materialId": "language-certificate", "required": true, "specificNote": "歌德学院B1或B2证书，或telc、DSD同等级别证书" },
+    { "materialId": "criminal-check", "required": false, "specificNote": "部分联邦州要求" },
+    { "materialId": "bank-statement", "required": true, "specificNote": "需证明能支付首年生活费，约11208欧元保证账户（Sperrkonto）" },
+    { "materialId": "academic-transcript", "required": true, "specificNote": "最高学历的成绩单，需德语翻译公证" },
+    { "materialId": "degree-certificate", "required": true, "specificNote": "高中或以上毕业证，需德语翻译公证" },
+    { "materialId": "id-photo", "required": true, "specificNote": "德国签证标准尺寸35x45mm，白色背景" },
+    { "materialId": "health-insurance", "required": true, "specificNote": "德国的公立健康保险（TK/AOK等），培训期间约100欧/月" }
+  ],
+
+  "visualTags": [
+    { "icon": "money", "text": "启动资金3-6万" },
+    { "icon": "clock", "text": "培训2-3.5年" },
+    { "icon": "pin", "text": "零学费+有工资" },
+    { "icon": "refresh", "text": "毕业后可留德工作" }
+  ],
+  "renewable": "培训结束后可直接与企业签订正式工作合同，申请工作居留许可。在德国工作满2年并缴满24个月养老保险后，可申请永久居留（Niederlassungserlaubnis）。",
+  "faq": [
+    {
+      "question": "高中毕业就能申请吗？",
+      "answer": "可以。德国双元制最低要求是高中/中专毕业，不需要大学学历。年龄越小越容易被录取。"
+    },
+    {
+      "question": "德语零基础可以吗？",
+      "answer": "不可以。至少需要B1水平，护理/IT等专业需要B2。建议在国内先学8-14个月德语再申请。"
+    },
+    {
+      "question": "培训期间能赚多少钱？",
+      "answer": "第一年约800-1100欧元/月（约6200-8600 RMB），第二年逐年递增。基本能覆盖德国生活费（800-1000欧/月），实现收支平衡。"
+    }
+  ],
+
+  "tips": [
+    "德语是关键！强烈建议在出发前至少学到B1，B2更安全",
+    "培训岗位最紧缺的领域：护理、IT、酒店餐饮、机电、焊接",
+    "中小企业（KMU）比大公司更容易拿到培训合同",
+    "可以同时申请多个培训岗位，增加成功率",
+    "推荐关注德国联邦劳工局的免费线上咨询（make-it-in-germany.com）"
+  ],
+
+  "warnings": [
+    "德语不好可能导致培训期间听不懂课、实操出错，甚至被企业解约",
+    "培训合同不等于签证，拿到合同后仍需通过签证审核",
+    "正规Ausbildung不需要向中介支付高额费用，企业免费提供合同",
+    "培训津贴各地区/专业差异大：西德高于东德，IT高于餐饮"
+  ],
+
+  "difficulty": "medium",
+  "tags": ["德语", "不需大学学历", "有工资", "可移民", "职业培训"],
+  "lastUpdated": "2026-05-29"
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "germany-au-pair",
+  "title": "德国互惠生（Au Pair）",
+  "subtitle": "包食宿+零花钱+语言班。德语A1就能申请，是去德国体验生活和学语言最便宜的方式",
+  "countrySlug": "germany",
+  "category": "au-pair",
+  "type": "互惠生签证（Au-pair-Visum）",
+  "isFeatured": true,
+
+  "eligibility": {
+    "minAge": 18,
+    "maxAge": 26,
+    "education": "high-school",
+    "englishLevel": "none",
+    "minBudgetRMB": 5000,
+    "maxBudgetRMB": 12000,
+    "specialRequirements": [
+      "年龄18-26岁（部分情况可到27岁）",
+      "高中及以上学历",
+      "德语A1证书（歌德学院或其他认可机构）",
+      "找到德国接收家庭（Host Family），签订Au Pair合同",
+      "身体健康、无犯罪记录",
+      "不能带子女一同赴德",
+      "之前没有在德国做过互惠生"
+    ]
+  },
+
+  "overview": {
+    "description": "德国互惠生（Au Pair）项目允许18-26岁的年轻人在德国家庭生活6-12个月，帮助照看孩子和做简单家务，换取免费食宿+每月260欧元零花钱+免费德语课+免费健康保险。互惠生有自己独立的房间，工作时间每周不超过30小时（含照看孩子）。这是去德国体验文化、学习德语、探索欧洲成本最低的途径——家庭包吃住，零花钱够日常开销。很多互惠生结束后转留学或职业培训留在德国。",
+    "officialPolicy": "根据德国居留法（AufenthG）第12条和Au Pair协议：互惠生通过德国驻华使领馆申请互惠生签证。必须提供经德国联邦劳动局（BA）认可的Au Pair合同。签证有效期最长12个月。互惠生家庭需提供免费食宿+独立房间+每月260欧元零花钱+德语课费用+健康保险。",
+    "officialPolicyUrl": "https://www.au-pair-society.org/de/au-pair-in-deutschland/",
+    "visaDuration": "6-12个月",
+    "processingTime": "1-3个月（找家庭+签证审理）",
+    "successRate": "较高。找到合适的Host Family即可，无名额限制",
+    "quota": "无固定名额限制"
+  },
+
+  "costs": {
+    "items": [
+      { "name": "签证申请费", "amountRMB": 600, "type": "government" },
+      { "name": "德语A1课程+考试", "amountRMB": 2000, "type": "language", "note": "歌德A1课程约2-3个月" },
+      { "name": "护照办理", "amountRMB": 120, "type": "document" },
+      { "name": "学历公证翻译（德语）", "amountRMB": 800, "type": "document" },
+      { "name": "机票（往返）", "amountRMB": 5000, "type": "travel" },
+      { "name": "Au Pair中介费（可选）", "amountRMB": 0, "type": "government", "note": "可以自己在AuPairWorld等平台免费找家庭，也可用中介（约3000-8000元）" }
+    ],
+    "totalMinRMB": 8520,
+    "totalMaxRMB": 12000,
+    "currency": "RMB",
+    "note": "在德期间包食宿！家庭还提供每月260欧元零花钱+免费德语班。这可能是所有出国路径中月开销最低的方式——吃住全免，零花钱够买日常用品和偶尔出行。"
+  },
+
+  "timeline": [
+    { "phase": "准备期", "duration": "2-4个月", "tasks": ["学习德语到A1水平并考取歌德A1证书", "办理护照", "在AuPairWorld.com / Aupair.com 等平台创建资料"] },
+    { "phase": "找家庭", "duration": "1-3个月", "tasks": ["完善个人资料（照片、自我介绍、带娃经验）", "主动联系德国Host Family", "和有意向的家庭视频面试（可英语/简单德语）", "和匹配的家庭签订Au Pair合同", "家庭向德国联邦劳动局申请许可"] },
+    { "phase": "签证+出发", "duration": "1-2个月", "tasks": ["预约德国使领馆递签", "提交护照+合同+A1证书+学历+体检", "等待签证（约2-4周）", "买机票，准备出发"] }
+  ],
+
+  "materials": [
+    { "materialId": "passport", "required": true },
+    { "materialId": "language-certificate", "required": true, "specificNote": "歌德A1证书。德语A1是最基础的水平（约2-3个月可达到）" },
+    { "materialId": "degree-certificate", "required": true, "specificNote": "高中及以上毕业证，需德语翻译公证" },
+    { "materialId": "criminal-check", "required": true, "specificNote": "无犯罪记录证明+德语翻译公证" },
+    { "materialId": "health-check", "required": true, "specificNote": "常规健康证明" },
+    { "materialId": "id-photo", "required": true },
+    { "materialId": "health-insurance", "required": true, "specificNote": "德国家庭必须为互惠生购买健康保险（含在合同内）" }
+  ],
+
+  "visualTags": [
+    { "icon": "money", "text": "启动资金仅8千-1.2万" },
+    { "icon": "clock", "text": "6-12个月" },
+    { "icon": "pin", "text": "包食宿+零花钱+德语课" },
+    { "icon": "refresh", "text": "可转留学或双元制" }
+  ],
+  "renewable": "互惠生签证最长12个月，不可延长。但很多互惠生结束后在当地转D类留学签证（Studium）或双元制培训签证（Ausbildung），继续留在德国。互惠经历对后续签证申请有正面作用。",
+
+  "faq": [
+    { "question": "德语零基础能去吗？", "answer": "必须至少A1水平（最基础级别，约2-3个月脱产学习）。日常生活可以用英语辅助沟通，但和孩子的互动需要基础德语。" },
+    { "question": "互惠生做什么工作？", "answer": "主要照看孩子（接送上学、陪玩、辅导简单作业）+ 轻度家务（整理孩子房间、准备简单餐食）。每周不超过30小时，每天至少1.5天休息。不是保姆——重点是文化交流。" },
+    { "question": "怎么找到靠谱的Host Family？", "answer": "AuPairWorld.com（最大平台，免费）、Aupair.com 是主要渠道。视频面试时可以问：家里有几个孩子/你住在哪间房/之前的互惠生为什么离开/日常安排是怎样的。直觉很重要——感觉不对就换下一家。" }
+  ],
+
+  "tips": ["AuPairWorld.com 是目前最大的互惠生匹配平台，免费注册和联系家庭", "在个人资料中突出你的带娃经验（弟弟妹妹、家教、志愿者都算）", "德国互惠生合同必须使用BA（联邦劳动局）标准模板", "德语学到A2再出发会更轻松——和家庭的日常沟通更顺畅"],
+  "warnings": ["和Host Family发生矛盾时，不要忍气吞声——你有权更换家庭（提前2周通知）或提前结束合同", "互惠生不是廉价保姆——如果家庭让你做繁重家务、超时工作，请联系德国Au Pair协会求助"],
+
+  "difficulty": "easy",
+  "tags": ["互惠生", "德国", "包食宿", "学德语", "低预算"],
+  "lastUpdated": "2026-05-29"
+}

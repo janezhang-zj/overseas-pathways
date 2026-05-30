@@ -1,0 +1,36 @@
+{
+  "id": "bank-statement",
+  "name": "银行存款证明",
+  "description": "证明申请人有足够资金支付出国费用的银行文件。通常需要冻结一定金额的存款。",
+  "category": "finance",
+  "required": true,
+  "processingLocation": "各大银行网点",
+  "estimatedFeeRMB": 20,
+  "estimatedProcessingDays": 1,
+  "validityPeriod": "3个月（大部分签证要求开具日在提交前1个月内）",
+  "steps": [
+    {
+      "order": 1,
+      "title": "准备资金",
+      "description": "将足够金额存入银行账户，建议提前1-3个月存入，避免临时大额转入引起质疑。",
+      "duration": "提前准备"
+    },
+    {
+      "order": 2,
+      "title": "柜台办理",
+      "description": "携带身份证和银行卡到银行网点，申请开具\"个人存款证明\"。可选择冻结1-6个月。",
+      "duration": "15分钟"
+    },
+    {
+      "order": 3,
+      "title": "获取中英文版本",
+      "description": "向银行要求开具中英文对照版本，如银行不支持英文需自行翻译后公证。",
+      "duration": "当场领取"
+    }
+  ],
+  "tips": [
+    "存款证明的金额要求因国家和签证类型而异，需提前确认具体要求",
+    "部分国家接受父母/配偶的资金担保，需额外提供担保声明和关系证明",
+    "理财产品和房产一般不能替代存款证明，现金存款最稳妥"
+  ]
+}

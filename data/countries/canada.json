@@ -1,0 +1,40 @@
+{
+  "slug": "canada",
+  "name": "加拿大",
+  "nameEn": "Canada",
+  "continent": "北美洲",
+  "flagEmoji": "🇨🇦",
+  "description": "加拿大以高质量教育、多元文化社会和友好的移民政策闻名。虽然中国不在IEC打工度假国家名单中，但通过留学+Co-op带薪实习、国际实习项目等方式，仍可实现边学边赚的海外体验。",
+  "image": "/images/countries/canada.webp",
+  "currency": "加元 (CAD)",
+  "exchangeRate": "1 CAD ≈ 5.3 RMB",
+  "language": "英语、法语",
+  "costOfLiving": {
+    "monthlyMinRMB": 7000,
+    "monthlyMaxRMB": 15000,
+    "cityBreakdown": {
+      "多伦多/温哥华": 15000,
+      "渥太华/蒙特利尔": 11000,
+      "卡尔加里": 9000,
+      "中小城市": 7000
+    }
+  },
+  "minWage": {
+    "rate": "各省不同（$15.00-19.00 CAD/小时）",
+    "monthlyEstimateRMB": 13000,
+    "note": "留学生每周可工作20小时（假期全职）。Co-op实习通常有行业标准薪资。"
+  },
+  "highlights": [
+    "留学期间可合法打工+Co-op带薪实习",
+    "毕业后可申PGWP工签（最长3年）",
+    "多元文化社会，华人社区成熟",
+    "通过留学可走Express Entry技术移民",
+    "公立学院（College）学费比大学便宜很多"
+  ],
+  "officialLinks": {
+    "immigration": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+    "education": "https://www.educanada.ca",
+    "health": "https://www.canada.ca/en/health-canada.html"
+  },
+  "tags": ["英语国家", "留学+工作", "可移民", "Co-op实习", "多元文化"]
+}

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx vercel *)",
+      "Bash(npx wrangler *)",
+      "Bash(node scripts/generate-codes.mjs 50 PW2026)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/pathways/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/pathways/australia-whv-462/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/countries/)",
+      "Bash(curl -s http://localhost:3000/pathways/australia-whv-462/)",
+      "Bash(taskkill //F //PID 24312)",
+      "Bash(rm -rf .next)"
+    ]
+  }
+}

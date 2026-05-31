@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
-const BASE_URL = "https://overseas-pathways.vercel.app";
+const BASE_URL = "https://overseas-pathways.pages.dev";
 
 // Read all country and pathway slugs from data files
 const countryDir = resolve(ROOT, "data", "countries");

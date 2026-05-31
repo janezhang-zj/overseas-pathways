@@ -74,6 +74,14 @@ export interface Pathway {
   faq: FAQItem[];
   tips: string[];
   warnings: string[];
+  acceptanceInfo?: {
+    mode: string;
+    rate?: string;
+    quota?: string;
+    applicants?: string;
+    detail: string;
+    warning: string;
+  };
   difficulty: Difficulty;
   tags: string[];
   lastUpdated: string;

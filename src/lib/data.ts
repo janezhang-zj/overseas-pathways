@@ -12,7 +12,6 @@ import southKorea from "../../data/countries/south-korea.json";
 import canada from "../../data/countries/canada.json";
 import france from "../../data/countries/france.json";
 import globalCountry from "../../data/countries/global.json";
-import netherlands from "../../data/countries/netherlands.json";
 
 import australiaWhv462 from "../../data/pathways/australia-whv-462.json";
 import germanyAusbildung from "../../data/pathways/germany-ausbildung.json";
@@ -24,12 +23,6 @@ import southKoreaH1 from "../../data/pathways/south-korea-h1.json";
 import canadaCoop from "../../data/pathways/canada-coop.json";
 import franceWhv from "../../data/pathways/france-whv.json";
 import wwoofGlobal from "../../data/pathways/wwoof-global.json";
-import germanyAuPair from "../../data/pathways/germany-au-pair.json";
-import japanJet from "../../data/pathways/japan-jet.json";
-import netherlandsSearchYear from "../../data/pathways/netherlands-search-year.json";
-import germanyOpportunityCard from "../../data/pathways/germany-opportunity-card.json";
-import cscInternship from "../../data/pathways/csc-internship.json";
-import aiesecInternship from "../../data/pathways/aiesec-internship.json";
 
 import passport from "../../data/materials/passport.json";
 import ieltsReport from "../../data/materials/ielts-report.json";
@@ -55,7 +48,6 @@ export const countries: Country[] = [
   canada as Country,
   france as Country,
   globalCountry as Country,
-  netherlands as Country,
 ];
 
 export const pathways: Pathway[] = [
@@ -69,12 +61,6 @@ export const pathways: Pathway[] = [
   canadaCoop as Pathway,
   franceWhv as Pathway,
   wwoofGlobal as Pathway,
-  germanyAuPair as Pathway,
-  japanJet as Pathway,
-  netherlandsSearchYear as Pathway,
-  germanyOpportunityCard as Pathway,
-  cscInternship as Pathway,
-  aiesecInternship as Pathway,
 ];
 
 export const materials: Material[] = [

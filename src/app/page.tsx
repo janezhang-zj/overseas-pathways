@@ -7,6 +7,7 @@ import HeroSection from "@/components/home/HeroSection";
 import QuickMatch from "@/components/home/QuickMatch";
 import FeaturedPathways from "@/components/home/FeaturedPathways";
 import CountryGrid from "@/components/home/CountryGrid";
+import VisitorCount from "@/components/home/VisitorCount";
 
 export default function HomePage() {
   const featured = getFeaturedPathways();
@@ -36,6 +37,9 @@ export default function HomePage() {
               <p className="text-earth-500 text-sm">
                 目前覆盖 <strong className="text-earth-700">{countries.length}</strong> 个国家，{" "}
                 <strong className="text-earth-700">{pathways.length}</strong> 条出国路径
+              </p>
+              <p className="text-earth-400 text-xs mt-1">
+                <VisitorCount />
               </p>
               <p className="text-earth-400 text-xs mt-1">
                 所有数据来自各国移民局官网，持续更新中

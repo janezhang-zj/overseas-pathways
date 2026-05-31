@@ -5,9 +5,9 @@ import Footer from "@/components/layout/Footer";
 import CostBreakdown from "@/components/pathways/CostBreakdown";
 import Timeline from "@/components/pathways/Timeline";
 import MaterialsChecklist from "@/components/pathways/MaterialsChecklist";
+import ApplicationTracker from "@/components/pathways/ApplicationTracker";
 import Badge from "@/components/ui/Badge";
 import { DIFFICULTY_LABELS, CATEGORY_LABELS } from "@/lib/constants";
-import PaywallGuard from "@/components/auth/PaywallGuard";
 import Link from "next/link";
 
 export function generateStaticParams() {
@@ -50,8 +50,7 @@ async function PathwayDetailPageContent({
   return (
     <>
       <Header />
-      <PaywallGuard>
-        <main className="flex-1 max-w-4xl mx-auto px-4 py-8 space-y-10">
+      <main className="flex-1 max-w-4xl mx-auto px-4 py-8 space-y-10">
         {/* 返回链接 */}
         <Link
           href="/pathways"
@@ -123,6 +122,37 @@ async function PathwayDetailPageContent({
           )}
         </section>
 
+        {/* 公平透明：中签率 / 录取机制 */}
+        {pathway.acceptanceInfo && (
+          <section className="glass rounded-2xl p-6 border-seed-100">
+            <h2 className="text-lg font-bold text-earth-900 mb-3 font-[family-name:var(--font-display)]">
+              📊 公平透明：机会有多大
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3 text-sm">
+              <div className="bg-white/50 rounded-lg p-3">
+                <span className="text-earth-400 text-xs block">选拔方式</span>
+                <span className="text-earth-800 font-bold">{pathway.acceptanceInfo.mode}</span>
+              </div>
+              <div className="bg-white/50 rounded-lg p-3">
+                <span className="text-earth-400 text-xs block">中签率/通过率</span>
+                <span className="text-earth-800 font-bold">{pathway.acceptanceInfo.rate || "—"}</span>
+              </div>
+              <div className="bg-white/50 rounded-lg p-3">
+                <span className="text-earth-400 text-xs block">名额数量</span>
+                <span className="text-earth-800 font-bold">{pathway.acceptanceInfo.quota || "—"}</span>
+              </div>
+              <div className="bg-white/50 rounded-lg p-3">
+                <span className="text-earth-400 text-xs block">竞争情况</span>
+                <span className="text-earth-800 font-bold">{pathway.acceptanceInfo.applicants || "—"}</span>
+              </div>
+            </div>
+            <p className="text-sm text-earth-600 leading-relaxed">{pathway.acceptanceInfo.detail}</p>
+            <div className="mt-3 p-3 rounded-xl bg-red-50 border border-red-100">
+              <p className="text-xs text-red-700 font-medium">⚠️ {pathway.acceptanceInfo.warning}</p>
+            </div>
+          </section>
+        )}
+
         {/* 签证概览 */}
         <section className="space-y-4">
           <h2 className="text-lg font-bold text-earth-900 font-[family-name:var(--font-display)]">签证概览</h2>
@@ -181,6 +211,14 @@ async function PathwayDetailPageContent({
           <h2 className="text-lg font-bold text-earth-900 mb-4 font-[family-name:var(--font-display)]">时间线</h2>
           <Timeline timeline={pathway.timeline} />
         </section>
+
+        {/* 申请进度追踪器（仅WHV类路径显示） */}
+        {(pathway.category === "work-holiday") && (
+          <section>
+            <h2 className="text-lg font-bold text-earth-900 mb-4 font-[family-name:var(--font-display)]">📅 申请进度追踪器</h2>
+            <ApplicationTracker pathway={pathway} />
+          </section>
+        )}
 
         {/* 材料清单 */}
         <section>
@@ -266,7 +304,6 @@ async function PathwayDetailPageContent({
           数据最后更新：{pathway.lastUpdated} · 来源：{country.name}移民局官网
         </p>
       </main>
-      </PaywallGuard>
       <Footer />
     </>
   );

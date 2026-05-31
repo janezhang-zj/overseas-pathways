@@ -8,6 +8,7 @@ const NAV_ITEMS = [
   { href: "/", label: "首页" },
   { href: "/pathways", label: "所有路径" },
   { href: "/countries", label: "国家" },
+  { href: "/experiences", label: "经验分享" },
   { href: "/glossary", label: "术语表" },
   { href: "/about", label: "关于" },
 ];
@@ -15,6 +16,7 @@ const NAV_ITEMS = [
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -64,13 +66,6 @@ export default function Header() {
                   {item.label}
                 </Link>
               ))}
-              <span className="w-px h-4 bg-earth-300 mx-1" />
-              <Link
-                href="/unlock"
-                className="px-3 py-1.5 text-xs text-moss-600 bg-moss-50 rounded-full font-medium hover:bg-moss-100 transition-colors"
-              >
-                公测免费
-              </Link>
             </nav>
 
             {/* Mobile hamburger */}

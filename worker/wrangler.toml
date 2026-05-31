@@ -1,0 +1,7 @@
+name = "overseas-pathways-experiences"
+main = "index.js"
+compatibility_date = "2026-05-31"
+
+[[kv_namespaces]]
+binding = "EXPERIENCES"
+id = "159b584c4ff54407af215f76745efd4d"

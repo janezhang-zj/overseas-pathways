@@ -53,6 +53,13 @@ export default function AboutPage() {
             </p>
           </section>
 
+          <section className="glass rounded-2xl p-6 border-seed-100">
+            <h2 className="text-lg font-bold text-earth-900 mb-3 font-[family-name:var(--font-display)]">免责声明</h2>
+            <p className="text-sm text-earth-600">
+              本站为公益信息聚合工具，不收取任何费用，不提供签证代办或咨询服务。
+              所有信息仅供参考，签证申请请以各国使领馆官方网站为准。如发现信息有误，欢迎反馈纠正。
+            </p>
+          </section>
         </div>
       </main>
       <Footer />

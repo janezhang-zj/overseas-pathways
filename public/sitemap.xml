@@ -1,193 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://overseas-pathways.vercel.app/</loc>
+    <loc>https://overseas-pathways.pages.dev/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/about</loc>
+    <loc>https://overseas-pathways.pages.dev/about</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries</loc>
+    <loc>https://overseas-pathways.pages.dev/countries</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/glossary</loc>
+    <loc>https://overseas-pathways.pages.dev/glossary</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/australia/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/australia/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/canada/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/canada/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/france/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/france/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/germany/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/germany/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/global/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/global/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/ireland/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/ireland/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/japan/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/japan/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/netherlands/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/new-zealand/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/new-zealand/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/south-korea/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/south-korea/</loc>
+    <loc>https://overseas-pathways.pages.dev/countries/united-states/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/countries/united-states/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/aiesec-internship/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/australia-whv-462/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/australia-whv-462/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/canada-coop/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/canada-coop/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/france-whv/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/csc-internship/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/germany-ausbildung/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/france-whv/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/ireland-whv/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/germany-au-pair/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/japan-student-visa/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/germany-ausbildung/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/new-zealand-whv/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/germany-opportunity-card/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/south-korea-h1/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/ireland-whv/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/usa-j1-itp/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/japan-jet/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/japan-student-visa/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/netherlands-search-year/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/new-zealand-whv/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/south-korea-h1/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/usa-j1-itp/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://overseas-pathways.vercel.app/pathways/wwoof-global/</loc>
+    <loc>https://overseas-pathways.pages.dev/pathways/wwoof-global/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

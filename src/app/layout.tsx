@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "飘向远方 — 出国路径信息聚合",
     description: "人生三万天，不止三点一线。各国移民局官网信息一站式聚合。",
-    url: "https://overseas-pathways.vercel.app",
+    url: "https://overseas-pathways.pages.dev",
     siteName: "飘向远方",
     type: "website",
     locale: "zh_CN",
   },
   alternates: {
-    canonical: "https://overseas-pathways.vercel.app",
+    canonical: "https://overseas-pathways.pages.dev",
   },
 };
 
@@ -42,7 +42,21 @@ export default function RootLayout({
           rel="stylesheet"
         />
         {/* 百度站点验证（上线后替换为你的验证码） */}
-        {/* <meta name="baidu-site-verification" content="code-xxx" /> */}
+        <meta name="baidu-site-verification" content="codeva-TzZ2rZoJkp" />
+        <meta name="msvalidate.01" content="60bb55bd2c1a4fbbac7e6fce80f01c35" />
+        <meta name="sogou_site_verification" content="jdXOvLFEJm" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+(function(){
+  var bp = document.createElement('script');
+  bp.src = '//push.zhanzhang.baidu.com/push.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(bp, s);
+})();
+`,
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col bg-earth-50 text-earth-900">
         {children}
